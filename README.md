@@ -160,15 +160,11 @@ The project uses three records with different purposes:
 
 ## Editable output and application support
 
-| Target | Output route | What to verify |
-|---|---|---|
-| **Affinity** | SVG/PDF interchange, followed by native editing and saving in the installed application | Text, curves, fonts, effects, and native reopen |
-| **Adobe Illustrator** | SVG/PDF interchange or available native scripting, followed by `.ai` saving in Illustrator | Live text versus outlined glyphs, paths, layers, and native reopen |
-| **PowerPoint** | Native PPTX text boxes, shapes, groups, paths, and local image assets | Individual object edits, font layout, save/reopen, and export |
-
-The current automatic PPTX backend requires the host-provided **`@oai/artifact-tool`** runtime. It is not bundled here. SVG/check mode uses Node.js without that package. Affinity and Illustrator support describes an import-and-review workflow; the renderer does not directly write their proprietary native formats.
-
-Photos, textures, scientific imagery, and generated illustrations can remain raster assets within an editable composition. Formula outlines remain scalable paths. Fixed connection paths do not automatically reroute when a module is dragged, and application edits do not automatically sync back to the spec.
+| Target | Output route |
+|---|---|
+| **Affinity** | SVG/PDF interchange, followed by native editing and saving in the installed application |
+| **Adobe Illustrator** | SVG/PDF interchange or available native scripting, followed by `.ai` saving in Illustrator |
+| **PowerPoint** | Native PPTX text boxes, shapes, groups, paths, and local image assets |
 
 ## Components and palettes
 
@@ -185,14 +181,6 @@ This produces component SVGs, catalog boards, `library.json`, `palette.json`, `t
 
 Extraction begins with analyzed objects in the spec. It is not an automatic segmentation tool for arbitrary photos. Catalogs are editable snapshots; native Symbols, Assets panels, global colors, and theme bindings require application-specific setup.
 
-## Evidence and current limits
-
-- **Four English visual cases:** three new compositions and one restyle. Three used their first draft; CLIP needed three local repairs. Prompts and case-level observations are included in [the example notes](docs/examples.md).
-- **Scientific review matters:** the CLIP first draft had plausible typography but incorrect routes. Its selected revision has separate modality inputs and a result that follows similarity computation.
-- **Generation is variable:** the gallery is an exploratory run, not a controlled benchmark, language comparison, or proof of consistent publication readiness.
-- **Runtime matters:** the skill coordinates tools supplied by its host. It does not bundle an image model, application licenses, or native application automation.
-- **Exact data matters:** missing scientific values, illegible labels, and inaccessible source evidence remain unknown rather than being silently invented.
-
 ## Repository map
 
 ```text
@@ -206,8 +194,6 @@ image2editable/
 │   └── renderer-demo/          # Executable spec, SVG, component library
 └── docs/                       # Examples, runtime, README research, launch copy
 ```
-
-The public skill is named **`image2editable`**. Its workflow comes from the existing **paper-figure-replica v4.2.1** baseline; the public rename does not change the drawing schemas or rendering algorithms.
 
 ## Contributing
 

@@ -2,7 +2,7 @@
 
 [English README](../README.md) · [中文 README](../README.zh-CN.md)
 
-These four English cases ran on **2026-10-13** with the v4.2.1 workflow. The public rename to Image2Editable happened afterward and did not regenerate the images. They test visual-target generation and restyling, not complete native reconstruction.
+These four English cases ran on **2026-10-13** with Image2Editable v4.2.1. They test visual-target generation and restyling, not complete native reconstruction.
 
 | Case | Input mode | Selected output | Required copy items | Original pixels |
 |---|---|---|---:|---|
@@ -69,4 +69,4 @@ The included prompts refer to their original numbered attachments. Re-running CL
 
 ## 中文说明
 
-四张图来自同一轮英文视觉测试，公开改名后没有重新生图。它们展示的是完整视觉稿阶段，不是已完成的 PPTX／SVG 原生重建。CLIP 保留首稿、三轮修订提示词和最终审查摘要，其余三张采用首稿。这组案例不能当作语言对照或模型 benchmark。公开包附带一个可独立运行的合成 SVG／组件库示例，方便验证统一绘图 spec 的工作方式。
+四张图来自同一轮英文视觉测试。它们展示的是完整视觉稿阶段，不是已完成的 PPTX／SVG 原生重建。CLIP 保留首稿、三轮修订提示词和最终审查摘要，其余三张采用首稿。这组案例不能当作语言对照或模型 benchmark。公开包附带一个可独立运行的合成 SVG／组件库示例，方便验证统一绘图 spec 的工作方式。

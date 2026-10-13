@@ -4,18 +4,10 @@
   "skillName": "image2editable",
   "license": "MIT",
   "workflowVersion": "4.2.1",
-  "preparedAt": "2026-10-13T13:25:39.848654+00:00",
-  "publicRename": {
-    "baselineName": "paper-figure-replica",
-    "baselineFiles": 48,
-    "changedIdentityFiles": [
-      "SKILL.md",
-      "agents/openai.yaml",
-      "references/examples.md"
-    ],
-    "addedLicense": "skills/image2editable/LICENSE",
-    "renderingAndHelperScriptsUnchanged": true,
-    "installedBaselineUnchanged": true
+  "preparedAt": "2026-10-13T13:42:48.375114+00:00",
+  "skillPackage": {
+    "name": "image2editable",
+    "licenseFile": "skills/image2editable/LICENSE"
   },
   "validation": {
     "skillCreatorQuickValidate": "passed",
@@ -40,9 +32,9 @@
       "imageGenerationCalled": false,
       "passed": true
     },
-    "localLinksChecked": 168,
+    "localLinksChecked": 166,
     "brokenLocalLinks": [],
-    "browserPreview": "English and Chinese README first-screen layout and case gallery inspected in a local browser. GitHub rendering/publication not performed; local Mermaid shown as code.",
+    "browserPreview": "Browser review records are maintained separately from packaging integrity checks.",
     "nativeApplicationTestThisPackagingRun": false,
     "privateExecutionPathFindings": []
   },
@@ -93,12 +85,12 @@
   ],
   "files": {
     ".gitignore": "2e648773e40b79b4f3bd16172ee4d09c527450c9f86868dbbbcd256fd693aebe",
-    "CHANGELOG.md": "c0ce70cdefc5a48f1351b193afaf8ee8c706ffa3f3b59ceb3d0cc32fc25364f5",
+    "CHANGELOG.md": "1440fc3002bcce38748937dd60f2d5d315bfb24f1f0b606fd1fd7231489df8c2",
     "CONTRIBUTING.md": "3ebe43f470f4c3ca1ff977a928cabda08bfde69bbb2963483ce5b38c5a108bc2",
     "LICENSE": "7ebd46b414a1bc387dc2cee9ba6573c2c704ceef04cc9c53467da9863a679108",
-    "PUBLISHING.md": "f4d135740659d5d2e6008c9fce83a0f34fe9bc8975e2f137fea3c75eeeda71c8",
-    "README.md": "32119287c7b47674d660c61ef19772f6419888fe381fdae0ffb5132edb3f9d48",
-    "README.zh-CN.md": "f96414f56e4a87dd8c2d85fd706b29cae02eb914f597aae0d853bc3807660383",
+    "PUBLISHING.md": "050610708427d9a806dbc4bc2f91719c2ae7c2873ee15aec8c2a2d34b7c9a464",
+    "README.md": "49c56fcffd9da7af8f166388d250669d27945f8775098f2a541fdfde6807483c",
+    "README.zh-CN.md": "b39107d2ffb6d154b724cf921f25bc49b2d20c1dbf33a15ad884a4cf341f9235",
     "THIRD_PARTY_NOTICES.md": "d2f3b4b9a4caf81c000330e52b3dcc0271d7f1749979c1fc6ac6843e97dba8cf",
     "VERSION": "e5d77a995a7d89c4b24498cb8947c3b40e53f4d2c0ba2380796cdb059d237848",
     "assets/gallery/clip-initial.png": "89dff081f090394a2fa7402450171d0d0e7c87256c22c8cb3c1cc13cc173186b",
@@ -106,7 +98,7 @@
     "assets/gallery/night-poster.png": "1a6d01b224fb8a9364fe61dc37ef16940407ff8c6c1619ac2c4505e95f8016f0",
     "assets/gallery/speaker.png": "bf516564e41abeb3198cf37e0fb7be51af313bb6bec5cf8a85ee254e07fd6ab2",
     "assets/gallery/water-cycle.png": "5bca6bfcd0ca2fb43d1de71655c4631f6d78e13daf12aa25523f1c4509cde59e",
-    "docs/examples.md": "33f67e01204fd1afc7b7bd9f3b2edcebd41c0ba50c4e994f001d7997b9be62fa",
+    "docs/examples.md": "446f180f3af7f466bc6ef51c484c7da9140ca242767eaa15f7b93110eac10b3c",
     "docs/launch-copy.md": "0b52a7ac375086b4ce2795ba65e252397f69aab9f527974b68a73d40b2a3af5e",
     "docs/readme-research.md": "885db1a35fbb80e9a9fc3ec2e406981cd53aaf8aff84713b0ed6b64e361dc7b9",
     "docs/runtime.md": "46a0296c6a92a2bf42c1f2eece749ea23bf461453d9ec2fb57400c1db00a7fb3",

@@ -29,7 +29,7 @@ Alternatively, create an empty repository through GitHub and follow its commands
 - Copy the About description and suggested topics from [launch-copy.md](docs/launch-copy.md).
 - Check that the four gallery images render and the language links work on GitHub.
 - Use https://github.com/guangzhaoli/image2editable in announcements. Both READMEs contain the real clone URL.
-- If you add a release tag, `v4.2.1` identifies the preserved workflow baseline; describe this as its public packaging, not a new performance improvement.
+- Use `v4.2.1` to identify the current Image2Editable version when adding a release tag.
 
 ## License and assets
 
