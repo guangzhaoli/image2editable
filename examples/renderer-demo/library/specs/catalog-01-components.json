@@ -1,0 +1,857 @@
+{
+  "schema": "paper-figure-spec/v1",
+  "state": "ready",
+  "canvas": {
+    "width": 1280,
+    "height": 900,
+    "unit": "px96",
+    "background": "catalog-paper"
+  },
+  "provenance": {
+    "kind": "synthetic",
+    "source": "Component catalog derived from Synthetic renderer example; not a paper figure",
+    "notes": "Catalog layout; original component geometry/style evidence retained"
+  },
+  "palette": {
+    "white": {
+      "hex": "#FFFFFF",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "ink": {
+      "hex": "#19283C",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "blue": {
+      "hex": "#D5E9F4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "yellow": {
+      "hex": "#FFF0BD",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "green": {
+      "hex": "#DDEDD4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "catalog-paper": {
+      "hex": "#FFFFFF",
+      "evidence": "Catalog page background"
+    },
+    "catalog-ink": {
+      "hex": "#18283D",
+      "evidence": "Catalog labels"
+    },
+    "catalog-muted": {
+      "hex": "#5C6878",
+      "evidence": "Catalog secondary labels"
+    },
+    "catalog-rule": {
+      "hex": "#E3E8EE",
+      "evidence": "Catalog divider"
+    },
+    "sample-0-p-c19283c": {
+      "hex": "#19283C",
+      "evidence": "ink: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-0-p-cffffff": {
+      "hex": "#FFFFFF",
+      "evidence": "white: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-1-p-c19283c": {
+      "hex": "#19283C",
+      "evidence": "ink: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-1-p-cffffff": {
+      "hex": "#FFFFFF",
+      "evidence": "white: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-2-p-c19283c": {
+      "hex": "#19283C",
+      "evidence": "ink: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-2-p-cffffff": {
+      "hex": "#FFFFFF",
+      "evidence": "white: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-3-p-c19283c": {
+      "hex": "#19283C",
+      "evidence": "ink: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-3-p-cd5e9f4": {
+      "hex": "#D5E9F4",
+      "evidence": "blue: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-3-p-cffffff": {
+      "hex": "#FFFFFF",
+      "evidence": "white: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-4-p-c19283c": {
+      "hex": "#19283C",
+      "evidence": "ink: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-4-p-cfff0bd": {
+      "hex": "#FFF0BD",
+      "evidence": "yellow: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "sample-4-p-cffffff": {
+      "hex": "#FFFFFF",
+      "evidence": "white: Authored synthetic fixture color; not sampled from a paper"
+    }
+  },
+  "fonts": {
+    "label": {
+      "family": "Arial",
+      "evidence": "Explicit font choice for synthetic fixture",
+      "native_verified": false
+    },
+    "catalog-font": {
+      "family": "Arial",
+      "evidence": "Catalog annotations",
+      "native_verified": false
+    },
+    "sample-3-f-font1": {
+      "family": "Arial",
+      "evidence": "label: Explicit font choice for synthetic fixture",
+      "native_verified": false
+    },
+    "sample-4-f-font1": {
+      "family": "Arial",
+      "evidence": "label: Explicit font choice for synthetic fixture",
+      "native_verified": false
+    }
+  },
+  "assets": [],
+  "objects": [
+    {
+      "id": "catalog-title",
+      "type": "text",
+      "text": "Component library",
+      "bbox": [
+        48,
+        28,
+        1184,
+        50
+      ],
+      "font": "catalog-font",
+      "size": 32,
+      "lineHeight": 40,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "catalog-subtitle",
+      "type": "text",
+      "text": "8 distinct components · editable samples with original styles",
+      "bbox": [
+        48,
+        86,
+        1184,
+        32
+      ],
+      "font": "catalog-font",
+      "size": 17,
+      "lineHeight": 21.25,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "catalog-page",
+      "type": "text",
+      "text": "01",
+      "bbox": [
+        1150,
+        854,
+        82,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 15,
+      "lineHeight": 18.75,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "align": "right"
+    },
+    {
+      "id": "col-component",
+      "type": "text",
+      "text": "COMPONENT",
+      "bbox": [
+        48,
+        138,
+        430,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "col-sample",
+      "type": "text",
+      "text": "EDITABLE SAMPLE",
+      "bbox": [
+        600,
+        138,
+        632,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "name-0",
+      "type": "text",
+      "text": "encoder-to-output",
+      "bbox": [
+        48,
+        185,
+        518,
+        34
+      ],
+      "font": "catalog-font",
+      "size": 21,
+      "lineHeight": 26.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "id-0",
+      "type": "text",
+      "text": "encoder-to-output",
+      "bbox": [
+        48,
+        226,
+        518,
+        26
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "details-0",
+      "type": "text",
+      "text": "connection  ·  1 instance  ·  81.5 × 6.0 px",
+      "bbox": [
+        48,
+        259,
+        540,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 15,
+      "lineHeight": 18.75,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "sample-0-node0002",
+      "type": "path",
+      "bbox": [
+        951.1999999999999,
+        229.2,
+        12.8,
+        9.600000000000001
+      ],
+      "z": 0,
+      "evidence": "Fixed path compiled from source connection in encoder-to-output",
+      "fill": "sample-0-p-c19283c",
+      "commands": [
+        [
+          "M",
+          12.8,
+          4.800000000000001
+        ],
+        [
+          "L",
+          0,
+          9.600000000000001
+        ],
+        [
+          "L",
+          0,
+          0
+        ],
+        [
+          "Z"
+        ]
+      ]
+    },
+    {
+      "id": "sample-0-node0003",
+      "type": "path",
+      "bbox": [
+        836,
+        234,
+        128,
+        0.0016
+      ],
+      "z": 1,
+      "evidence": "Fixed path compiled from source connection in encoder-to-output",
+      "fill": "none",
+      "stroke": {
+        "color": "sample-0-p-c19283c",
+        "width": 2.4000000000000004,
+        "dash": "solid"
+      },
+      "commands": [
+        [
+          "M",
+          0,
+          0
+        ],
+        [
+          "L",
+          128,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "rule-0",
+      "type": "rect",
+      "bbox": [
+        48,
+        301,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "name-1",
+      "type": "text",
+      "text": "input-to-encoder",
+      "bbox": [
+        48,
+        315,
+        518,
+        34
+      ],
+      "font": "catalog-font",
+      "size": 21,
+      "lineHeight": 26.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "id-1",
+      "type": "text",
+      "text": "input-to-encoder",
+      "bbox": [
+        48,
+        356,
+        518,
+        26
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "details-1",
+      "type": "text",
+      "text": "connection  ·  1 instance  ·  71.5 × 6.0 px",
+      "bbox": [
+        48,
+        389,
+        540,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 15,
+      "lineHeight": 18.75,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "sample-1-node0002",
+      "type": "path",
+      "bbox": [
+        943.1999999999999,
+        359.2,
+        12.8,
+        9.600000000000001
+      ],
+      "z": 0,
+      "evidence": "Fixed path compiled from source connection in input-to-encoder",
+      "fill": "sample-1-p-c19283c",
+      "commands": [
+        [
+          "M",
+          12.8,
+          4.800000000000001
+        ],
+        [
+          "L",
+          0,
+          9.600000000000001
+        ],
+        [
+          "L",
+          0,
+          0
+        ],
+        [
+          "Z"
+        ]
+      ]
+    },
+    {
+      "id": "sample-1-node0003",
+      "type": "path",
+      "bbox": [
+        844,
+        364,
+        112,
+        0.0016
+      ],
+      "z": 1,
+      "evidence": "Fixed path compiled from source connection in input-to-encoder",
+      "fill": "none",
+      "stroke": {
+        "color": "sample-1-p-c19283c",
+        "width": 2.4000000000000004,
+        "dash": "solid"
+      },
+      "commands": [
+        [
+          "M",
+          0,
+          0
+        ],
+        [
+          "L",
+          112,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "rule-1",
+      "type": "rect",
+      "bbox": [
+        48,
+        431,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "name-2",
+      "type": "text",
+      "text": "curve",
+      "bbox": [
+        48,
+        445,
+        518,
+        34
+      ],
+      "font": "catalog-font",
+      "size": 21,
+      "lineHeight": 26.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "id-2",
+      "type": "text",
+      "text": "curve",
+      "bbox": [
+        48,
+        486,
+        518,
+        26
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "details-2",
+      "type": "text",
+      "text": "path  ·  1 instance  ·  102.0 × 47.0 px",
+      "bbox": [
+        48,
+        519,
+        540,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 15,
+      "lineHeight": 18.75,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "sample-2-node0001",
+      "type": "path",
+      "bbox": [
+        820,
+        458,
+        160,
+        72
+      ],
+      "z": 0,
+      "evidence": "Bezier test: exact SVG, bounded polygonal native PPTX path",
+      "fill": "none",
+      "stroke": {
+        "color": "sample-2-p-c19283c",
+        "width": 3.2,
+        "dash": "solid"
+      },
+      "commands": [
+        [
+          "M",
+          0,
+          40
+        ],
+        [
+          "C",
+          32,
+          0,
+          64,
+          72,
+          96,
+          32
+        ],
+        [
+          "Q",
+          128,
+          0,
+          160,
+          40
+        ]
+      ]
+    },
+    {
+      "id": "rule-2",
+      "type": "rect",
+      "bbox": [
+        48,
+        561,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "name-3",
+      "type": "text",
+      "text": "encoder-group",
+      "bbox": [
+        48,
+        575,
+        518,
+        34
+      ],
+      "font": "catalog-font",
+      "size": 21,
+      "lineHeight": 26.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "id-3",
+      "type": "text",
+      "text": "encoder-group",
+      "bbox": [
+        48,
+        616,
+        518,
+        26
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "details-3",
+      "type": "text",
+      "text": "group  ·  1 instance  ·  161.5 × 57.5 px",
+      "bbox": [
+        48,
+        649,
+        540,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 15,
+      "lineHeight": 18.75,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "sample-3-node0002",
+      "type": "roundrect",
+      "bbox": [
+        772,
+        579.2,
+        256,
+        89.60000000000001
+      ],
+      "z": 0,
+      "evidence": "Authored synthetic geometry",
+      "fill": "sample-3-p-cd5e9f4",
+      "stroke": {
+        "color": "sample-3-p-c19283c",
+        "width": 2.4000000000000004,
+        "dash": "solid"
+      },
+      "radius": 14.4
+    },
+    {
+      "id": "sample-3-node0003",
+      "type": "text",
+      "bbox": [
+        784.8,
+        600,
+        230.4,
+        48
+      ],
+      "z": 1,
+      "evidence": "Label anchored to its module origin",
+      "text": "Encoder",
+      "size": 28.8,
+      "lineHeight": 35.2,
+      "align": "center",
+      "valign": "middle",
+      "bold": false,
+      "italic": false,
+      "font": "sample-3-f-font1",
+      "color": "sample-3-p-c19283c"
+    },
+    {
+      "id": "rule-3",
+      "type": "rect",
+      "bbox": [
+        48,
+        691,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "name-4",
+      "type": "text",
+      "text": "input-group",
+      "bbox": [
+        48,
+        705,
+        518,
+        34
+      ],
+      "font": "catalog-font",
+      "size": 21,
+      "lineHeight": 26.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "id-4",
+      "type": "text",
+      "text": "input-group",
+      "bbox": [
+        48,
+        746,
+        518,
+        26
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "details-4",
+      "type": "text",
+      "text": "group  ·  1 instance  ·  121.5 × 57.5 px",
+      "bbox": [
+        48,
+        779,
+        540,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 15,
+      "lineHeight": 18.75,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "sample-4-node0002",
+      "type": "roundrect",
+      "bbox": [
+        804,
+        709.2,
+        192,
+        89.60000000000001
+      ],
+      "z": 0,
+      "evidence": "Authored synthetic geometry",
+      "fill": "sample-4-p-cfff0bd",
+      "stroke": {
+        "color": "sample-4-p-c19283c",
+        "width": 2.4000000000000004,
+        "dash": "solid"
+      },
+      "radius": 14.4
+    },
+    {
+      "id": "sample-4-node0003",
+      "type": "text",
+      "bbox": [
+        816.8,
+        730,
+        166.4,
+        48
+      ],
+      "z": 1,
+      "evidence": "Label anchored to its module origin",
+      "text": "Input",
+      "size": 28.8,
+      "lineHeight": 35.2,
+      "align": "center",
+      "valign": "middle",
+      "bold": false,
+      "italic": false,
+      "font": "sample-4-f-font1",
+      "color": "sample-4-p-c19283c"
+    },
+    {
+      "id": "rule-4",
+      "type": "rect",
+      "bbox": [
+        48,
+        821,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    }
+  ],
+  "connections": [],
+  "groups": [
+    {
+      "id": "sample-0-node0001",
+      "children": [
+        "sample-0-node0002",
+        "sample-0-node0003"
+      ],
+      "z": 0
+    },
+    {
+      "id": "sample-0",
+      "children": [
+        "sample-0-node0001"
+      ],
+      "z": 20
+    },
+    {
+      "id": "sample-1-node0001",
+      "children": [
+        "sample-1-node0002",
+        "sample-1-node0003"
+      ],
+      "z": 0
+    },
+    {
+      "id": "sample-1",
+      "children": [
+        "sample-1-node0001"
+      ],
+      "z": 20
+    },
+    {
+      "id": "sample-2",
+      "children": [
+        "sample-2-node0001"
+      ],
+      "z": 20
+    },
+    {
+      "id": "sample-3-node0001",
+      "children": [
+        "sample-3-node0002",
+        "sample-3-node0003"
+      ],
+      "z": 0
+    },
+    {
+      "id": "sample-3",
+      "children": [
+        "sample-3-node0001"
+      ],
+      "z": 20
+    },
+    {
+      "id": "sample-4-node0001",
+      "children": [
+        "sample-4-node0002",
+        "sample-4-node0003"
+      ],
+      "z": 0
+    },
+    {
+      "id": "sample-4",
+      "children": [
+        "sample-4-node0001"
+      ],
+      "z": 20
+    }
+  ]
+}

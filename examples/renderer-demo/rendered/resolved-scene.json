@@ -1,0 +1,773 @@
+{
+  "schema": "paper-figure-scene/v1",
+  "canvas": {
+    "width": 640,
+    "height": 280,
+    "unit": "px96",
+    "background": "#FFFFFF"
+  },
+  "roots": [
+    "encoder-to-output",
+    "input-to-encoder",
+    "curve",
+    "encoder-group",
+    "input-group",
+    "output-group",
+    "caption",
+    "caption-bottom"
+  ],
+  "nodes": [
+    {
+      "id": "input",
+      "type": "roundrect",
+      "bbox": [
+        40,
+        80,
+        120,
+        56
+      ],
+      "z": 0,
+      "evidence": "Authored synthetic geometry",
+      "fill": "#FFF0BD",
+      "stroke": {
+        "color": "#19283C",
+        "width": 1.5,
+        "dash": "solid"
+      },
+      "radius": 9
+    },
+    {
+      "id": "input-label",
+      "type": "text",
+      "bbox": [
+        48,
+        93,
+        104,
+        30
+      ],
+      "z": 1,
+      "evidence": "Label anchored to its module origin",
+      "text": "Input",
+      "font": "Arial",
+      "size": 18,
+      "lineHeight": 22,
+      "align": "center",
+      "valign": "middle",
+      "bold": false,
+      "italic": false,
+      "color": "#19283C"
+    },
+    {
+      "id": "encoder",
+      "type": "roundrect",
+      "bbox": [
+        230,
+        80,
+        160,
+        56
+      ],
+      "z": 0,
+      "evidence": "Authored synthetic geometry",
+      "fill": "#D5E9F4",
+      "stroke": {
+        "color": "#19283C",
+        "width": 1.5,
+        "dash": "solid"
+      },
+      "radius": 9
+    },
+    {
+      "id": "encoder-label",
+      "type": "text",
+      "bbox": [
+        238,
+        93,
+        144,
+        30
+      ],
+      "z": 1,
+      "evidence": "Label anchored to its module origin",
+      "text": "Encoder",
+      "font": "Arial",
+      "size": 18,
+      "lineHeight": 22,
+      "align": "center",
+      "valign": "middle",
+      "bold": false,
+      "italic": false,
+      "color": "#19283C"
+    },
+    {
+      "id": "output",
+      "type": "roundrect",
+      "bbox": [
+        470,
+        80,
+        120,
+        56
+      ],
+      "z": 0,
+      "evidence": "Authored synthetic geometry",
+      "fill": "#DDEDD4",
+      "stroke": {
+        "color": "#19283C",
+        "width": 1.5,
+        "dash": "solid"
+      },
+      "radius": 9
+    },
+    {
+      "id": "output-label",
+      "type": "text",
+      "bbox": [
+        478,
+        93,
+        104,
+        30
+      ],
+      "z": 1,
+      "evidence": "Label anchored to its module origin",
+      "text": "Output",
+      "font": "Arial",
+      "size": 18,
+      "lineHeight": 22,
+      "align": "center",
+      "valign": "middle",
+      "bold": false,
+      "italic": false,
+      "color": "#19283C"
+    },
+    {
+      "id": "caption",
+      "type": "text",
+      "bbox": [
+        30,
+        20,
+        580,
+        30
+      ],
+      "z": 30,
+      "evidence": "Synthetic example title",
+      "text": "One spec → SVG + editable PPTX",
+      "font": "Arial",
+      "size": 22,
+      "lineHeight": 27,
+      "align": "center",
+      "valign": "top",
+      "bold": true,
+      "italic": false,
+      "color": "#19283C"
+    },
+    {
+      "id": "curve",
+      "type": "path",
+      "bbox": [
+        75,
+        190,
+        100,
+        45
+      ],
+      "z": 20,
+      "evidence": "Bezier test: exact SVG, bounded polygonal native PPTX path",
+      "fill": "none",
+      "stroke": {
+        "color": "#19283C",
+        "width": 2,
+        "dash": "solid"
+      },
+      "commands": [
+        [
+          "M",
+          0,
+          25
+        ],
+        [
+          "C",
+          20,
+          0,
+          40,
+          45,
+          60,
+          20
+        ],
+        [
+          "Q",
+          80,
+          0,
+          100,
+          25
+        ]
+      ],
+      "flatCommands": [
+        [
+          "M",
+          0,
+          25
+        ],
+        [
+          "L",
+          1.875,
+          22.857056
+        ],
+        [
+          "L",
+          3.75,
+          21.098633
+        ],
+        [
+          "L",
+          5.625,
+          19.699097
+        ],
+        [
+          "L",
+          7.5,
+          18.632813
+        ],
+        [
+          "L",
+          9.375,
+          17.874146
+        ],
+        [
+          "L",
+          11.25,
+          17.397461
+        ],
+        [
+          "L",
+          13.125,
+          17.177124
+        ],
+        [
+          "L",
+          15,
+          17.1875
+        ],
+        [
+          "L",
+          18.75,
+          17.797852
+        ],
+        [
+          "L",
+          22.5,
+          19.023438
+        ],
+        [
+          "L",
+          26.25,
+          20.65918
+        ],
+        [
+          "L",
+          30,
+          22.5
+        ],
+        [
+          "L",
+          33.75,
+          24.34082
+        ],
+        [
+          "L",
+          37.5,
+          25.976563
+        ],
+        [
+          "L",
+          41.25,
+          27.202148
+        ],
+        [
+          "L",
+          45,
+          27.8125
+        ],
+        [
+          "L",
+          46.875,
+          27.822876
+        ],
+        [
+          "L",
+          48.75,
+          27.602539
+        ],
+        [
+          "L",
+          50.625,
+          27.125854
+        ],
+        [
+          "L",
+          52.5,
+          26.367188
+        ],
+        [
+          "L",
+          54.375,
+          25.300903
+        ],
+        [
+          "L",
+          56.25,
+          23.901367
+        ],
+        [
+          "L",
+          58.125,
+          22.142944
+        ],
+        [
+          "L",
+          60,
+          20
+        ],
+        [
+          "L",
+          62.5,
+          17.675781
+        ],
+        [
+          "L",
+          65,
+          15.703125
+        ],
+        [
+          "L",
+          67.5,
+          14.082031
+        ],
+        [
+          "L",
+          70,
+          12.8125
+        ],
+        [
+          "L",
+          72.5,
+          11.894531
+        ],
+        [
+          "L",
+          75,
+          11.328125
+        ],
+        [
+          "L",
+          77.5,
+          11.113281
+        ],
+        [
+          "L",
+          80,
+          11.25
+        ],
+        [
+          "L",
+          82.5,
+          11.738281
+        ],
+        [
+          "L",
+          85,
+          12.578125
+        ],
+        [
+          "L",
+          87.5,
+          13.769531
+        ],
+        [
+          "L",
+          90,
+          15.3125
+        ],
+        [
+          "L",
+          92.5,
+          17.207031
+        ],
+        [
+          "L",
+          95,
+          19.453125
+        ],
+        [
+          "L",
+          97.5,
+          22.050781
+        ],
+        [
+          "L",
+          100,
+          25
+        ]
+      ]
+    },
+    {
+      "id": "caption-bottom",
+      "type": "text",
+      "bbox": [
+        200,
+        185,
+        370,
+        55
+      ],
+      "z": 30,
+      "evidence": "Synthetic demonstration labels",
+      "text": "Anchored labels · ID-bound routes\nMeasured colors · Named groups",
+      "font": "Arial",
+      "size": 15,
+      "lineHeight": 23,
+      "align": "left",
+      "valign": "top",
+      "bold": false,
+      "italic": false,
+      "color": "#19283C"
+    },
+    {
+      "id": "input-to-encoder__line",
+      "type": "path",
+      "bbox": [
+        160,
+        108,
+        70,
+        0.001
+      ],
+      "commands": [
+        [
+          "M",
+          0,
+          0
+        ],
+        [
+          "L",
+          70,
+          0
+        ]
+      ],
+      "flatCommands": [
+        [
+          "M",
+          0,
+          0
+        ],
+        [
+          "L",
+          70,
+          0
+        ]
+      ],
+      "fill": "none",
+      "stroke": {
+        "color": "#19283C",
+        "width": 1.5,
+        "dash": "solid"
+      },
+      "z": 0
+    },
+    {
+      "id": "input-to-encoder__end",
+      "type": "path",
+      "bbox": [
+        222,
+        105,
+        8,
+        6
+      ],
+      "commands": [
+        [
+          "M",
+          8,
+          3
+        ],
+        [
+          "L",
+          0,
+          6
+        ],
+        [
+          "L",
+          0,
+          0
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "flatCommands": [
+        [
+          "M",
+          8,
+          3
+        ],
+        [
+          "L",
+          0,
+          6
+        ],
+        [
+          "L",
+          0,
+          0
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "fill": "#19283C",
+      "stroke": {
+        "color": "none",
+        "width": 0,
+        "dash": "solid"
+      },
+      "z": 0
+    },
+    {
+      "id": "input-to-encoder",
+      "type": "group",
+      "children": [
+        "input-to-encoder__end",
+        "input-to-encoder__line"
+      ],
+      "bbox": [
+        160,
+        105,
+        70,
+        6
+      ],
+      "z": 10
+    },
+    {
+      "id": "encoder-to-output__line",
+      "type": "path",
+      "bbox": [
+        390,
+        108,
+        80,
+        0.001
+      ],
+      "commands": [
+        [
+          "M",
+          0,
+          0
+        ],
+        [
+          "L",
+          80,
+          0
+        ]
+      ],
+      "flatCommands": [
+        [
+          "M",
+          0,
+          0
+        ],
+        [
+          "L",
+          80,
+          0
+        ]
+      ],
+      "fill": "none",
+      "stroke": {
+        "color": "#19283C",
+        "width": 1.5,
+        "dash": "solid"
+      },
+      "z": 0
+    },
+    {
+      "id": "encoder-to-output__end",
+      "type": "path",
+      "bbox": [
+        462,
+        105,
+        8,
+        6
+      ],
+      "commands": [
+        [
+          "M",
+          8,
+          3
+        ],
+        [
+          "L",
+          0,
+          6
+        ],
+        [
+          "L",
+          0,
+          0
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "flatCommands": [
+        [
+          "M",
+          8,
+          3
+        ],
+        [
+          "L",
+          0,
+          6
+        ],
+        [
+          "L",
+          0,
+          0
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "fill": "#19283C",
+      "stroke": {
+        "color": "none",
+        "width": 0,
+        "dash": "solid"
+      },
+      "z": 0
+    },
+    {
+      "id": "encoder-to-output",
+      "type": "group",
+      "children": [
+        "encoder-to-output__end",
+        "encoder-to-output__line"
+      ],
+      "bbox": [
+        390,
+        105,
+        80,
+        6
+      ],
+      "z": 10
+    },
+    {
+      "id": "input-group",
+      "type": "group",
+      "children": [
+        "input",
+        "input-label"
+      ],
+      "z": 20,
+      "bbox": [
+        40,
+        80,
+        120,
+        56
+      ]
+    },
+    {
+      "id": "encoder-group",
+      "type": "group",
+      "children": [
+        "encoder",
+        "encoder-label"
+      ],
+      "z": 20,
+      "bbox": [
+        230,
+        80,
+        160,
+        56
+      ]
+    },
+    {
+      "id": "output-group",
+      "type": "group",
+      "children": [
+        "output",
+        "output-label"
+      ],
+      "z": 20,
+      "bbox": [
+        470,
+        80,
+        120,
+        56
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "input-to-encoder",
+      "source": {
+        "object": "input",
+        "port": "right"
+      },
+      "target": {
+        "object": "encoder",
+        "port": "left"
+      },
+      "arrow": "end",
+      "stroke": {
+        "color": "ink",
+        "width": 1.5
+      },
+      "z": 10,
+      "evidence": "Synthetic left-to-right data flow",
+      "resolvedPoints": [
+        [
+          160,
+          108
+        ],
+        [
+          230,
+          108
+        ]
+      ]
+    },
+    {
+      "id": "encoder-to-output",
+      "source": {
+        "object": "encoder",
+        "port": "right"
+      },
+      "target": {
+        "object": "output",
+        "port": "left"
+      },
+      "arrow": "end",
+      "stroke": {
+        "color": "ink",
+        "width": 1.5
+      },
+      "z": 10,
+      "evidence": "Synthetic left-to-right data flow",
+      "resolvedPoints": [
+        [
+          390,
+          108
+        ],
+        [
+          470,
+          108
+        ]
+      ]
+    }
+  ],
+  "assetHashes": {},
+  "curveTolerance": 0.15,
+  "provenance": {
+    "kind": "synthetic",
+    "source": "Synthetic renderer example; not a paper figure"
+  },
+  "limitations": [
+    "SVG and PowerPoint font metrics can differ; inspect target-app export.",
+    "Connections are grouped editable paths; endpoints update on spec re-render, not by live native routing.",
+    "Bezier curves remain exact in SVG and use bounded polygonal approximation in PPTX.",
+    "Generated files do not import native-editor changes back into spec."
+  ],
+  "specSha256": "902ff6b8a47147f825212c5dedc6694be1356d9b3521b3ea0f92ccaad4ce97e6"
+}

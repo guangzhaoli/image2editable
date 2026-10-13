@@ -1,0 +1,643 @@
+{
+  "schema": "paper-figure-spec/v1",
+  "state": "ready",
+  "canvas": {
+    "width": 1280,
+    "height": 900,
+    "unit": "px96",
+    "background": "catalog-paper"
+  },
+  "provenance": {
+    "kind": "synthetic",
+    "source": "Component catalog derived from Synthetic renderer example; not a paper figure",
+    "notes": "Catalog layout; original component geometry/style evidence retained"
+  },
+  "palette": {
+    "white": {
+      "hex": "#FFFFFF",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "ink": {
+      "hex": "#19283C",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "blue": {
+      "hex": "#D5E9F4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "yellow": {
+      "hex": "#FFF0BD",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "green": {
+      "hex": "#DDEDD4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "catalog-paper": {
+      "hex": "#FFFFFF",
+      "evidence": "Catalog page background"
+    },
+    "catalog-ink": {
+      "hex": "#18283D",
+      "evidence": "Catalog labels"
+    },
+    "catalog-muted": {
+      "hex": "#5C6878",
+      "evidence": "Catalog secondary labels"
+    },
+    "catalog-rule": {
+      "hex": "#E3E8EE",
+      "evidence": "Catalog divider"
+    },
+    "swatch-0": {
+      "hex": "#FFFFFF",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "swatch-1": {
+      "hex": "#19283C",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "swatch-2": {
+      "hex": "#D5E9F4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "swatch-3": {
+      "hex": "#FFF0BD",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "swatch-4": {
+      "hex": "#DDEDD4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    }
+  },
+  "fonts": {
+    "label": {
+      "family": "Arial",
+      "evidence": "Explicit font choice for synthetic fixture",
+      "native_verified": false
+    },
+    "catalog-font": {
+      "family": "Arial",
+      "evidence": "Catalog annotations",
+      "native_verified": false
+    }
+  },
+  "assets": [],
+  "objects": [
+    {
+      "id": "catalog-title",
+      "type": "text",
+      "text": "Color palette",
+      "bbox": [
+        48,
+        28,
+        1184,
+        50
+      ],
+      "font": "catalog-font",
+      "size": 32,
+      "lineHeight": 40,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "catalog-subtitle",
+      "type": "text",
+      "text": "5 named tokens · source values and usage",
+      "bbox": [
+        48,
+        86,
+        1184,
+        32
+      ],
+      "font": "catalog-font",
+      "size": 17,
+      "lineHeight": 21.25,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "catalog-page",
+      "type": "text",
+      "text": "03",
+      "bbox": [
+        1150,
+        854,
+        82,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 15,
+      "lineHeight": 18.75,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "align": "right"
+    },
+    {
+      "id": "swatch-0",
+      "type": "rect",
+      "bbox": [
+        48,
+        149,
+        100,
+        66
+      ],
+      "fill": "swatch-0",
+      "stroke": {
+        "color": "catalog-rule",
+        "width": 1
+      },
+      "z": 20,
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    {
+      "id": "token-0",
+      "type": "text",
+      "text": "white",
+      "bbox": [
+        172,
+        144,
+        470,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 20,
+      "lineHeight": 25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "values-0",
+      "type": "text",
+      "text": "#FFFFFF   RGB 255, 255, 255",
+      "bbox": [
+        172,
+        182,
+        470,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 17,
+      "lineHeight": 21.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "uses-0",
+      "type": "text",
+      "text": "1 uses in source",
+      "bbox": [
+        684,
+        144,
+        548,
+        29
+      ],
+      "font": "catalog-font",
+      "size": 18,
+      "lineHeight": 22.5,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "evidence-0",
+      "type": "text",
+      "text": "Authored synthetic fixture color; not sampled from a paper",
+      "bbox": [
+        684,
+        179,
+        548,
+        38
+      ],
+      "font": "catalog-font",
+      "size": 13,
+      "lineHeight": 16.25,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "rule-0",
+      "type": "rect",
+      "bbox": [
+        48,
+        229,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "swatch-1",
+      "type": "rect",
+      "bbox": [
+        48,
+        247,
+        100,
+        66
+      ],
+      "fill": "swatch-1",
+      "stroke": {
+        "color": "catalog-rule",
+        "width": 1
+      },
+      "z": 20,
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    {
+      "id": "token-1",
+      "type": "text",
+      "text": "ink",
+      "bbox": [
+        172,
+        242,
+        470,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 20,
+      "lineHeight": 25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "values-1",
+      "type": "text",
+      "text": "#19283C   RGB 25, 40, 60",
+      "bbox": [
+        172,
+        280,
+        470,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 17,
+      "lineHeight": 21.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "uses-1",
+      "type": "text",
+      "text": "11 uses in source",
+      "bbox": [
+        684,
+        242,
+        548,
+        29
+      ],
+      "font": "catalog-font",
+      "size": 18,
+      "lineHeight": 22.5,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "evidence-1",
+      "type": "text",
+      "text": "Authored synthetic fixture color; not sampled from a paper",
+      "bbox": [
+        684,
+        277,
+        548,
+        38
+      ],
+      "font": "catalog-font",
+      "size": 13,
+      "lineHeight": 16.25,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "rule-1",
+      "type": "rect",
+      "bbox": [
+        48,
+        327,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "swatch-2",
+      "type": "rect",
+      "bbox": [
+        48,
+        345,
+        100,
+        66
+      ],
+      "fill": "swatch-2",
+      "stroke": {
+        "color": "catalog-rule",
+        "width": 1
+      },
+      "z": 20,
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    {
+      "id": "token-2",
+      "type": "text",
+      "text": "blue",
+      "bbox": [
+        172,
+        340,
+        470,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 20,
+      "lineHeight": 25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "values-2",
+      "type": "text",
+      "text": "#D5E9F4   RGB 213, 233, 244",
+      "bbox": [
+        172,
+        378,
+        470,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 17,
+      "lineHeight": 21.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "uses-2",
+      "type": "text",
+      "text": "1 uses in source",
+      "bbox": [
+        684,
+        340,
+        548,
+        29
+      ],
+      "font": "catalog-font",
+      "size": 18,
+      "lineHeight": 22.5,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "evidence-2",
+      "type": "text",
+      "text": "Authored synthetic fixture color; not sampled from a paper",
+      "bbox": [
+        684,
+        375,
+        548,
+        38
+      ],
+      "font": "catalog-font",
+      "size": 13,
+      "lineHeight": 16.25,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "rule-2",
+      "type": "rect",
+      "bbox": [
+        48,
+        425,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "swatch-3",
+      "type": "rect",
+      "bbox": [
+        48,
+        443,
+        100,
+        66
+      ],
+      "fill": "swatch-3",
+      "stroke": {
+        "color": "catalog-rule",
+        "width": 1
+      },
+      "z": 20,
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    {
+      "id": "token-3",
+      "type": "text",
+      "text": "yellow",
+      "bbox": [
+        172,
+        438,
+        470,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 20,
+      "lineHeight": 25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "values-3",
+      "type": "text",
+      "text": "#FFF0BD   RGB 255, 240, 189",
+      "bbox": [
+        172,
+        476,
+        470,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 17,
+      "lineHeight": 21.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "uses-3",
+      "type": "text",
+      "text": "1 uses in source",
+      "bbox": [
+        684,
+        438,
+        548,
+        29
+      ],
+      "font": "catalog-font",
+      "size": 18,
+      "lineHeight": 22.5,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "evidence-3",
+      "type": "text",
+      "text": "Authored synthetic fixture color; not sampled from a paper",
+      "bbox": [
+        684,
+        473,
+        548,
+        38
+      ],
+      "font": "catalog-font",
+      "size": 13,
+      "lineHeight": 16.25,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "rule-3",
+      "type": "rect",
+      "bbox": [
+        48,
+        523,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "swatch-4",
+      "type": "rect",
+      "bbox": [
+        48,
+        541,
+        100,
+        66
+      ],
+      "fill": "swatch-4",
+      "stroke": {
+        "color": "catalog-rule",
+        "width": 1
+      },
+      "z": 20,
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    {
+      "id": "token-4",
+      "type": "text",
+      "text": "green",
+      "bbox": [
+        172,
+        536,
+        470,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 20,
+      "lineHeight": 25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "values-4",
+      "type": "text",
+      "text": "#DDEDD4   RGB 221, 237, 212",
+      "bbox": [
+        172,
+        574,
+        470,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 17,
+      "lineHeight": 21.25,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "uses-4",
+      "type": "text",
+      "text": "1 uses in source",
+      "bbox": [
+        684,
+        536,
+        548,
+        29
+      ],
+      "font": "catalog-font",
+      "size": 18,
+      "lineHeight": 22.5,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "evidence-4",
+      "type": "text",
+      "text": "Authored synthetic fixture color; not sampled from a paper",
+      "bbox": [
+        684,
+        571,
+        548,
+        38
+      ],
+      "font": "catalog-font",
+      "size": 13,
+      "lineHeight": 16.25,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "rule-4",
+      "type": "rect",
+      "bbox": [
+        48,
+        621,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    }
+  ],
+  "connections": [],
+  "groups": []
+}

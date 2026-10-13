@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image2Editable"
+  short_description: "Editable figures, posters, and visuals from references"
+  default_prompt: "Use $image2editable to understand my content and references, build an image-and-text visual spec when useful, adapt the style or create a new visual, and complete the requested editable project with content, visual, and native editing checks."

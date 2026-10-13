@@ -1,0 +1,114 @@
+[
+  {
+    "id": "text-style-6a370ff2c22d",
+    "fingerprint": "6a370ff2c22d44785ea6d462b88a432b6811fcfa146e8cd6be5f6e9a46a363d6",
+    "family": "Arial",
+    "size": 18,
+    "lineHeight": 22,
+    "align": "center",
+    "valign": "middle",
+    "bold": false,
+    "italic": false,
+    "color": "#19283C",
+    "fontTokens": [
+      "label"
+    ],
+    "colorTokens": [
+      "ink"
+    ],
+    "fontEvidence": [
+      {
+        "token": "label",
+        "family": "Arial",
+        "evidence": "Explicit font choice for synthetic fixture",
+        "native_verified": false
+      }
+    ],
+    "usage": [
+      {
+        "kind": "object",
+        "id": "input-label",
+        "property": "text"
+      },
+      {
+        "kind": "object",
+        "id": "encoder-label",
+        "property": "text"
+      },
+      {
+        "kind": "object",
+        "id": "output-label",
+        "property": "text"
+      }
+    ],
+    "usageCount": 3
+  },
+  {
+    "id": "text-style-a9318ca1916d",
+    "fingerprint": "a9318ca1916d30beeb58b0f482c4fd281dd987aa82126500214ef693068d537d",
+    "family": "Arial",
+    "size": 22,
+    "lineHeight": 27,
+    "align": "center",
+    "valign": "top",
+    "bold": true,
+    "italic": false,
+    "color": "#19283C",
+    "fontTokens": [
+      "label"
+    ],
+    "colorTokens": [
+      "ink"
+    ],
+    "fontEvidence": [
+      {
+        "token": "label",
+        "family": "Arial",
+        "evidence": "Explicit font choice for synthetic fixture",
+        "native_verified": false
+      }
+    ],
+    "usage": [
+      {
+        "kind": "object",
+        "id": "caption",
+        "property": "text"
+      }
+    ],
+    "usageCount": 1
+  },
+  {
+    "id": "text-style-f3194bdd81fb",
+    "fingerprint": "f3194bdd81fb705deb7165278d7ef68ac6fa74e81d401dcfb6441760d90a1e8a",
+    "family": "Arial",
+    "size": 15,
+    "lineHeight": 23,
+    "align": "left",
+    "valign": "top",
+    "bold": false,
+    "italic": false,
+    "color": "#19283C",
+    "fontTokens": [
+      "label"
+    ],
+    "colorTokens": [
+      "ink"
+    ],
+    "fontEvidence": [
+      {
+        "token": "label",
+        "family": "Arial",
+        "evidence": "Explicit font choice for synthetic fixture",
+        "native_verified": false
+      }
+    ],
+    "usage": [
+      {
+        "kind": "object",
+        "id": "caption-bottom",
+        "property": "text"
+      }
+    ],
+    "usageCount": 1
+  }
+]

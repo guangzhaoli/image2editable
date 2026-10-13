@@ -1,0 +1,307 @@
+{
+  "schema": "paper-figure-spec/v1",
+  "state": "ready",
+  "canvas": {
+    "width": 640,
+    "height": 280,
+    "unit": "px96",
+    "background": "white"
+  },
+  "provenance": {
+    "kind": "synthetic",
+    "source": "Synthetic renderer example; not a paper figure"
+  },
+  "palette": {
+    "white": {
+      "hex": "#FFFFFF",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "ink": {
+      "hex": "#19283C",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "blue": {
+      "hex": "#D5E9F4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "yellow": {
+      "hex": "#FFF0BD",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "green": {
+      "hex": "#DDEDD4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    }
+  },
+  "fonts": {
+    "label": {
+      "family": "Arial",
+      "evidence": "Explicit font choice for synthetic fixture",
+      "native_verified": false
+    }
+  },
+  "assets": [],
+  "objects": [
+    {
+      "id": "input",
+      "type": "roundrect",
+      "bbox": [
+        40,
+        80,
+        120,
+        56
+      ],
+      "radius": 9,
+      "fill": "yellow",
+      "stroke": {
+        "color": "ink",
+        "width": 1.5
+      },
+      "z": 0,
+      "evidence": "Authored synthetic geometry"
+    },
+    {
+      "id": "input-label",
+      "type": "text",
+      "bbox": [
+        8,
+        13,
+        104,
+        30
+      ],
+      "anchor": {
+        "object": "input"
+      },
+      "text": "Input",
+      "font": "label",
+      "size": 18,
+      "lineHeight": 22,
+      "align": "center",
+      "valign": "middle",
+      "color": "ink",
+      "z": 1,
+      "evidence": "Label anchored to its module origin"
+    },
+    {
+      "id": "encoder",
+      "type": "roundrect",
+      "bbox": [
+        230,
+        80,
+        160,
+        56
+      ],
+      "radius": 9,
+      "fill": "blue",
+      "stroke": {
+        "color": "ink",
+        "width": 1.5
+      },
+      "z": 0,
+      "evidence": "Authored synthetic geometry"
+    },
+    {
+      "id": "encoder-label",
+      "type": "text",
+      "bbox": [
+        8,
+        13,
+        144,
+        30
+      ],
+      "anchor": {
+        "object": "encoder"
+      },
+      "text": "Encoder",
+      "font": "label",
+      "size": 18,
+      "lineHeight": 22,
+      "align": "center",
+      "valign": "middle",
+      "color": "ink",
+      "z": 1,
+      "evidence": "Label anchored to its module origin"
+    },
+    {
+      "id": "output",
+      "type": "roundrect",
+      "bbox": [
+        470,
+        80,
+        120,
+        56
+      ],
+      "radius": 9,
+      "fill": "green",
+      "stroke": {
+        "color": "ink",
+        "width": 1.5
+      },
+      "z": 0,
+      "evidence": "Authored synthetic geometry"
+    },
+    {
+      "id": "output-label",
+      "type": "text",
+      "bbox": [
+        8,
+        13,
+        104,
+        30
+      ],
+      "anchor": {
+        "object": "output"
+      },
+      "text": "Output",
+      "font": "label",
+      "size": 18,
+      "lineHeight": 22,
+      "align": "center",
+      "valign": "middle",
+      "color": "ink",
+      "z": 1,
+      "evidence": "Label anchored to its module origin"
+    },
+    {
+      "id": "caption",
+      "type": "text",
+      "bbox": [
+        30,
+        20,
+        580,
+        30
+      ],
+      "text": "One spec → SVG + editable PPTX",
+      "font": "label",
+      "size": 22,
+      "lineHeight": 27,
+      "bold": true,
+      "align": "center",
+      "color": "ink",
+      "z": 30,
+      "evidence": "Synthetic example title"
+    },
+    {
+      "id": "curve",
+      "type": "path",
+      "bbox": [
+        75,
+        190,
+        100,
+        45
+      ],
+      "commands": [
+        [
+          "M",
+          0,
+          25
+        ],
+        [
+          "C",
+          20,
+          0,
+          40,
+          45,
+          60,
+          20
+        ],
+        [
+          "Q",
+          80,
+          0,
+          100,
+          25
+        ]
+      ],
+      "fill": "none",
+      "stroke": {
+        "color": "ink",
+        "width": 2
+      },
+      "z": 20,
+      "evidence": "Bezier test: exact SVG, bounded polygonal native PPTX path"
+    },
+    {
+      "id": "caption-bottom",
+      "type": "text",
+      "bbox": [
+        200,
+        185,
+        370,
+        55
+      ],
+      "text": "Anchored labels · ID-bound routes\nMeasured colors · Named groups",
+      "font": "label",
+      "size": 15,
+      "lineHeight": 23,
+      "color": "ink",
+      "z": 30,
+      "evidence": "Synthetic demonstration labels"
+    }
+  ],
+  "connections": [
+    {
+      "id": "input-to-encoder",
+      "source": {
+        "object": "input",
+        "port": "right"
+      },
+      "target": {
+        "object": "encoder",
+        "port": "left"
+      },
+      "arrow": "end",
+      "stroke": {
+        "color": "ink",
+        "width": 1.5
+      },
+      "z": 10,
+      "evidence": "Synthetic left-to-right data flow"
+    },
+    {
+      "id": "encoder-to-output",
+      "source": {
+        "object": "encoder",
+        "port": "right"
+      },
+      "target": {
+        "object": "output",
+        "port": "left"
+      },
+      "arrow": "end",
+      "stroke": {
+        "color": "ink",
+        "width": 1.5
+      },
+      "z": 10,
+      "evidence": "Synthetic left-to-right data flow"
+    }
+  ],
+  "groups": [
+    {
+      "id": "input-group",
+      "children": [
+        "input",
+        "input-label"
+      ],
+      "z": 20
+    },
+    {
+      "id": "encoder-group",
+      "children": [
+        "encoder",
+        "encoder-label"
+      ],
+      "z": 20
+    },
+    {
+      "id": "output-group",
+      "children": [
+        "output",
+        "output-label"
+      ],
+      "z": 20
+    }
+  ],
+  "curveTolerance": 0.15
+}

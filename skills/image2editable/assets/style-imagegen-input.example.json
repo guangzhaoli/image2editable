@@ -1,0 +1,13 @@
+{
+  "schema": "imagegen-input/v1",
+  "designPlan": "style-design-plan.example.json",
+  "visualSpec": "viz/visual-spec.json",
+  "useCase": "infographic-diagram",
+  "transparentBackground": false,
+  "designBrief": {
+    "request": "Generate a simple visual target for the proposed Input → Encoder → Output relationship using only the selected reference attributes.",
+    "exactText": ["Input", "Encoder", "Output"],
+    "constraints": ["No empirical numbers or unsupported internal mechanisms; the source reference is a synthetic style sample."]
+  },
+  "references": []
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "design-plan/v1",
+  "kind": "framework",
+  "brief": {"goal": "Synthetic editable three-node framework example", "audience": "Users testing visual-spec integration", "targetApps": ["PowerPoint", "Affinity", "Illustrator"]},
+  "sources": [{"id": "synthetic-style", "title": "Synthetic diagnostic reference", "uri": "visual-study-reference.png", "role": "style", "kind": "data"}],
+  "claims": [{"id": "flow", "text": "Proposed example: Input passes through Encoder to Output.", "status": "proposed", "sourceRefs": [], "required": true}],
+  "structure": {
+    "nodes": [{"id": "input", "label": "Input", "claimRefs": ["flow"]}, {"id": "encoder", "label": "Encoder", "claimRefs": ["flow"]}, {"id": "output", "label": "Output", "claimRefs": ["flow"]}],
+    "relations": [{"id": "encode", "source": "input", "target": "encoder", "type": "data flow", "claimRefs": ["flow"]}, {"id": "emit", "source": "encoder", "target": "output", "type": "data flow", "claimRefs": ["flow"]}]
+  },
+  "references": [{"sourceId": "synthetic-style", "figure": "Diagnostic reference", "inspected": true, "lessons": ["Role-based palette and unequal main/supporting weight."], "avoidCopy": ["Diagnostic words and source boxes are not content."]}],
+  "design": {"alternatives": [{"id": "ordered", "description": "Ordered path for the three proposed nodes"}], "chosen": "ordered", "rationale": "The synthetic relationship is sequential."},
+  "bindings": {"nodes": [], "relations": [], "claims": [], "status": "not-created", "reason": "This example prepares a visual target; no final figure-spec or native objects exist."},
+  "unknowns": ["Synthetic input example, not a real paper or native-editability test."]
+}

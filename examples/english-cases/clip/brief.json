@@ -1,0 +1,92 @@
+{
+  "case": "clip",
+  "goal": "Create a concise English CLIP training and zero-shot classification framework schematic.",
+  "audience": "Computer vision paper readers",
+  "language": "English only",
+  "targetApps": [],
+  "workingSize": "180 x 112 mm working size, landscape approximately 16:10",
+  "scope": "Visual-target case run; final native reconstruction is outside this batch.",
+  "copy": [
+    "CLIP",
+    "Learning to match images and text",
+    "Contrastive training",
+    "Zero-shot classification",
+    "Image batch",
+    "Caption batch",
+    "Image encoder",
+    "Text encoder",
+    "Normalized embeddings",
+    "Pairwise similarity",
+    "Matched pairs",
+    "Symmetric contrastive loss",
+    "Train both encoders",
+    "Query image",
+    "Class prompts",
+    "Frozen image encoder",
+    "Frozen text encoder",
+    "Cosine similarity",
+    "Illustrative label: dog",
+    "a red car",
+    "a brown dog",
+    "a yellow flower",
+    "A photo of a cat.",
+    "A photo of a dog.",
+    "A photo of a car.",
+    "Radford et al., 2021 | Conceptual schematic; no measured scores"
+  ],
+  "claims": [
+    {
+      "id": "pairing",
+      "text": "Jointly train image and text encoders to match paired images and descriptions in a batch.",
+      "status": "supported",
+      "sourceRefs": [
+        {
+          "sourceId": "paper",
+          "locator": "Figure 1, PDF p.2; section 2.2, p.3"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "similarity",
+      "text": "Project and normalize both representations. Pairwise cosine similarities feed a symmetric image-to-text/text-to-image contrastive objective.",
+      "status": "supported",
+      "sourceRefs": [
+        {
+          "sourceId": "paper",
+          "locator": "Section 2.2 and Figure 3, PDF p.3"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "transfer",
+      "text": "At zero-shot inference, reuse the learned encoders to compare a query image with text prompts describing the candidate classes.",
+      "status": "supported",
+      "sourceRefs": [
+        {
+          "sourceId": "paper",
+          "locator": "Figure 1 p.2; section 2.5 p.4"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "illustration",
+      "text": "A three-pair training batch and a dog-versus-cat/car example are illustrative design choices; no measured scores or real inference are claimed.",
+      "status": "proposed",
+      "sourceRefs": [],
+      "required": true
+    }
+  ],
+  "constraints": [
+    "Use exactly three paired training samples and exactly a 3-by-3 core similarity grid; do not use a different number of rows and columns.",
+    "The matched diagonal reflects paired training examples, not measured model accuracy.",
+    "Use only the requested labels/captions; small row/column IDs I1/I2/I3 and T1/T2/T3 are permitted if useful.",
+    "The source dog photo is not required; create illustrative car/dog/flower samples without calling them new CLIP results."
+  ],
+  "limits": [
+    "This is a conceptual explanation with a synthetic example, not an experiment or measured output.",
+    "A selected basic single-template inference view omits ensembling and benchmark detail."
+  ]
+}

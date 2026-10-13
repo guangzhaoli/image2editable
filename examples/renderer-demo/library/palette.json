@@ -1,0 +1,155 @@
+[
+  {
+    "token": "white",
+    "hex": "#FFFFFF",
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "evidence": "Authored synthetic fixture color; not sampled from a paper",
+    "usage": [
+      {
+        "kind": "canvas",
+        "id": "canvas",
+        "property": "background"
+      }
+    ],
+    "usageCount": 1,
+    "duplicateHexTokens": []
+  },
+  {
+    "token": "ink",
+    "hex": "#19283C",
+    "rgb": [
+      25,
+      40,
+      60
+    ],
+    "evidence": "Authored synthetic fixture color; not sampled from a paper",
+    "usage": [
+      {
+        "kind": "object",
+        "id": "input",
+        "property": "stroke.color"
+      },
+      {
+        "kind": "object",
+        "id": "input-label",
+        "property": "color"
+      },
+      {
+        "kind": "object",
+        "id": "encoder",
+        "property": "stroke.color"
+      },
+      {
+        "kind": "object",
+        "id": "encoder-label",
+        "property": "color"
+      },
+      {
+        "kind": "object",
+        "id": "output",
+        "property": "stroke.color"
+      },
+      {
+        "kind": "object",
+        "id": "output-label",
+        "property": "color"
+      },
+      {
+        "kind": "object",
+        "id": "caption",
+        "property": "color"
+      },
+      {
+        "kind": "object",
+        "id": "curve",
+        "property": "stroke.color"
+      },
+      {
+        "kind": "object",
+        "id": "caption-bottom",
+        "property": "color"
+      },
+      {
+        "kind": "connection",
+        "id": "input-to-encoder",
+        "property": "stroke.color",
+        "derivedNodeIds": [
+          "input-to-encoder__line",
+          "input-to-encoder__end"
+        ]
+      },
+      {
+        "kind": "connection",
+        "id": "encoder-to-output",
+        "property": "stroke.color",
+        "derivedNodeIds": [
+          "encoder-to-output__line",
+          "encoder-to-output__end"
+        ]
+      }
+    ],
+    "usageCount": 11,
+    "duplicateHexTokens": []
+  },
+  {
+    "token": "blue",
+    "hex": "#D5E9F4",
+    "rgb": [
+      213,
+      233,
+      244
+    ],
+    "evidence": "Authored synthetic fixture color; not sampled from a paper",
+    "usage": [
+      {
+        "kind": "object",
+        "id": "encoder",
+        "property": "fill"
+      }
+    ],
+    "usageCount": 1,
+    "duplicateHexTokens": []
+  },
+  {
+    "token": "yellow",
+    "hex": "#FFF0BD",
+    "rgb": [
+      255,
+      240,
+      189
+    ],
+    "evidence": "Authored synthetic fixture color; not sampled from a paper",
+    "usage": [
+      {
+        "kind": "object",
+        "id": "input",
+        "property": "fill"
+      }
+    ],
+    "usageCount": 1,
+    "duplicateHexTokens": []
+  },
+  {
+    "token": "green",
+    "hex": "#DDEDD4",
+    "rgb": [
+      221,
+      237,
+      212
+    ],
+    "evidence": "Authored synthetic fixture color; not sampled from a paper",
+    "usage": [
+      {
+        "kind": "object",
+        "id": "output",
+        "property": "fill"
+      }
+    ],
+    "usageCount": 1,
+    "duplicateHexTokens": []
+  }
+]

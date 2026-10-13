@@ -1,0 +1,35 @@
+{
+  "case": "speaker",
+  "goal": "Create an all-English editorial product visual while retaining the fictional speaker identity.",
+  "audience": "English-speaking design and outdoor-lifestyle readers",
+  "language": "English only",
+  "targetApps": [],
+  "workingSize": "224 x 280 mm working size, portrait 4:5",
+  "scope": "Visual-target case run; final native reconstruction is outside this batch.",
+  "copy": [
+    "PORTABLE SOUND",
+    "TAKE THE LONG WAY.",
+    "Bring your favorite sound beyond the everyday.",
+    "WOVEN TEXTURE",
+    "METAL DETAILS",
+    "CARRY LIGHT",
+    "CONCEPT STUDY"
+  ],
+  "claims": [
+    {
+      "id": "concept",
+      "text": "An unbranded fictional concept speaker with dark woven front, champagne metal side and orange loop. English copy is a proposed editorial demonstration; no tested specifications exist.",
+      "status": "proposed",
+      "sourceRefs": [],
+      "required": true
+    }
+  ],
+  "constraints": [
+    "No Chinese writing, logos, prices, power, battery, water-resistance or acoustic specifications.",
+    "Preserve the product, not the previous Chinese letterforms."
+  ],
+  "limits": [
+    "Raster style transfer is not exact source-pixel retention or native editability.",
+    "Fictional concept, not a real product advertisement."
+  ]
+}

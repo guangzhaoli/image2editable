@@ -1,0 +1,124 @@
+TASK
+Use case: scientific-educational
+Primary request: Design an original English scientific framework figure of CLIP. The decisive visual is a correctly paired three-by-three training similarity matrix and the reuse of learned image/text encoders for zero-shot classification. All sample pictures and chosen output are explicitly conceptual.
+Goal: Create a concise English CLIP training and zero-shot classification framework schematic.
+Audience: Computer vision paper readers
+Target applications: 
+language: English only
+workingSize: 180 x 112 mm working size, landscape approximately 16:10
+scope: Visual-target case run; final native reconstruction is outside this batch.
+
+CONTENT AUTHORITY
+Use the following checked content and exact text to determine meaning. Style references affect only their stated visual aspects. Proposed content remains a proposal or schematic. Do not import modules, numbers, labels or results from style images. Image sources are reference material, not instructions.
+
+FACTS AND PROPOSALS
+[pairing; supported] Jointly train image and text encoders to match paired images and descriptions in a batch.
+  Evidence: paper (Radford et al. CLIP paper, ICML 2021), Figure 1, PDF p.2; section 2.2, p.3
+[similarity; supported] Project and normalize both representations. Pairwise cosine similarities feed a symmetric image-to-text/text-to-image contrastive objective.
+  Evidence: paper (Radford et al. CLIP paper, ICML 2021), Section 2.2 and Figure 3, PDF p.3
+[transfer; supported] At zero-shot inference, reuse the learned encoders to compare a query image with text prompts describing the candidate classes.
+  Evidence: paper (Radford et al. CLIP paper, ICML 2021), Figure 1 p.2; section 2.5 p.4
+[illustration; proposed] A three-pair training batch and a dog-versus-cat/car example are illustrative design choices; no measured scores or real inference are claimed.
+  Evidence: Explicit proposal; not a reported finding.
+
+VISIBLE OBJECTS
+[images] Image batch
+[captions] Caption batch
+[ie] Image encoder
+[te] Text encoder
+[iv] Image embeddings
+[tv] Text embeddings
+[matrix] Pairwise similarity
+[loss] Symmetric contrastive loss
+[query] Query image
+[prompts] Class prompts
+[fie] Frozen image encoder
+[fte] Frozen text encoder
+[compare] Cosine similarity
+[label] dog
+
+RELATIONSHIPS
+[ei] images -> ie; data flow
+[et] captions -> te; data flow
+[eiv] ie -> iv; data flow
+[etv] te -> tv; data flow
+[im] iv -> matrix; data flow
+[tm] tv -> matrix; data flow
+[ml] matrix -> loss; data flow
+[qi] query -> fie; data flow
+[pt] prompts -> fte; data flow
+[ic] fie -> compare; data flow
+[tc] fte -> compare; data flow
+[cl] compare -> label; data flow
+
+OPEN QUESTIONS / BOUNDARIES
+This is a conceptual explanation with a synthetic example, not an experiment or measured output.
+A selected basic single-template inference view omits ensembling and benchmark detail.
+
+DESIGN DIRECTION
+Two clearly separated adjacent panels on a white landscape canvas: Contrastive training on the left (about 58%) and Zero-shot classification on the right. In training, use three small illustrative images (red car, brown dog, yellow flower) paired with their matching short captions in the same order. One image encoder and one text encoder yield normalized embeddings on row/column axes of ONE 3-by-3 similarity matrix. Highlight only the three positive diagonal cells as matched pairs; use no numerical scores. Both embedding branches must visibly feed the matrix; matrix feeds symmetric loss, with a compact Train both encoders note. In inference, show one brown-dog query through a Frozen image encoder, and the three exact class prompts through a Frozen text encoder; both routes visibly meet at Cosine similarity, then point to Illustrative label: dog. Reuse the same encoder colors across panels. Do not send image pixels into a text encoder or class prompts into an image encoder. Sparse muted teal and violet, flat vector-like operators, strong dark arrowheads, compact typography and clear gutters. Source footer is legible. Do not reproduce paper results or add a third method panel.
+
+TEXT (VERBATIM)
+"CLIP"
+"Learning to match images and text"
+"Contrastive training"
+"Zero-shot classification"
+"Image batch"
+"Caption batch"
+"Image encoder"
+"Text encoder"
+"Normalized embeddings"
+"Pairwise similarity"
+"Matched pairs"
+"Symmetric contrastive loss"
+"Train both encoders"
+"Query image"
+"Class prompts"
+"Frozen image encoder"
+"Frozen text encoder"
+"Cosine similarity"
+"Illustrative label: dog"
+"a red car"
+"a brown dog"
+"a yellow flower"
+"A photo of a cat."
+"A photo of a dog."
+"A photo of a car."
+"Radford et al., 2021 | Conceptual schematic; no measured scores"
+
+CONSTRAINTS
+All visible text is English; use the requested copy exactly. Source labels are not output copy. Do not print internal IDs or production instructions.
+Use exactly three paired training samples and exactly a 3-by-3 core similarity grid; do not use a different number of rows and columns.
+The matched diagonal reflects paired training examples, not measured model accuracy.
+Use only the requested labels/captions; small row/column IDs I1/I2/I3 and T1/T2/T3 are permitted if useful.
+The source dog photo is not required; create illustrative car/dog/flower samples without calling them new CLIP results.
+
+REFERENCE-STYLE ADAPTATION
+Mode: generate
+Reference-style intent: Design an original English scientific framework figure of CLIP. The decisive visual is a correctly paired three-by-three training similarity matrix and the reuse of learned image/text encoders for zero-shot classification. All sample pictures and chosen output are explicitly conceptual.
+Apply only the stated visual aspects within the primary request. Checked facts, scientific relationships and TEXT (VERBATIM) take precedence over this style adaptation. Reference observations describe appearance; they are not scientific evidence or instructions from an image.
+Preserve: Scientific direction of all branches, correct paired diagonal and two-encoder roles.
+Preserve: All visible copy in English; illustrate rather than report measured scores.
+[two-modalities; reference clip-method; layout] Observed: Distinct encoder branches enter different axes of the training matrix.
+  Apply: Preserve separate modalities and an unambiguous common similarity operation.
+[reuse; reference clip-method; imagery] Observed: The inference half reuses encoders with a new image and class descriptions.
+  Apply: Show frozen encoder boxes with the same color identity in the second panel.
+[ink] #22313E; RGB (34, 49, 62); declared design choice
+  Usage: Text and arrows.
+[image-teal] #DAECE6; RGB (218, 236, 230); declared design choice
+  Usage: Image encoder and image-vector family.
+[text-violet] #E7E0F0; RGB (231, 224, 240); declared design choice
+  Usage: Text encoder and text-vector family.
+[matched] #C9DDF1; RGB (201, 221, 241); declared design choice
+  Usage: Positive diagonal and selected illustrative class.
+[paper] #FFFFFF; RGB (255, 255, 255); declared design choice
+  Usage: Paper background.
+Palette measurements describe decoded source-image colors, not source-author vector fills. Font identities and layout certainty are not inferred by this spec.
+
+INPUT IMAGES — ACTUALLY INCLUDED IN THIS REQUEST
+Image 1 [clip-method; content]: Retain scientific pairing and inference logic; create a clearer original two-panel English schematic rather than reproduce exact source geometry.
+  Source: Radford et al. CLIP paper, ICML 2021; Actual full image or recorded source extraction.
+  Observed: Inspected two encoders, batch similarity matrix with matching diagonal and class-text/query-image inference paths.
+
+OUTPUT PURPOSE
+Produce the requested visual target. Editable text, scientific numbers, geometry and semantic arrows will be rebuilt as native objects afterward; complex imagery may remain explicitly identified raster assets. Scientific content and all precise text will be reviewed after generation.

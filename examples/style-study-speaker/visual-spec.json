@@ -1,0 +1,231 @@
+{
+  "schema": "visual-spec/v1",
+  "mode": "restyle",
+  "intent": "Restyle the actual supplied speaker poster into a polished all-English editorial visual. Replace all Chinese text, including labels inside material details, with the exact English copy. Retain the same product and the warm-paper/deep-green family.",
+  "preserve": [
+    "Same fictional product and its materials/colors; no new brand or performance claims.",
+    "All seven new English strings, readable and complete.",
+    "Material closeups still correspond to the product; no Chinese text remains."
+  ],
+  "references": [
+    {
+      "id": "target",
+      "sourceId": "target",
+      "locator": "Actual full image or recorded source extraction",
+      "role": "edit-target",
+      "delivery": "attach",
+      "inspected": true,
+      "inspectionNote": "Inspected thick rounded woven face, champagne side shell and tall orange woven loop; original page has Chinese copy.",
+      "use": "Keep product identity and materials; replace the entire copy with the new English inventory.",
+      "preserve": "Same recognizable speaker body, woven front, metal side, orange loop and material closeups. Keep opaque background. Original Chinese words are explicitly replaced.",
+      "path": "images/001-original.png",
+      "sha256": "7d85abcd537e1f3294e243be10eb05f1912ad269209914cad8ce29b0be557338"
+    },
+    {
+      "id": "paper-style",
+      "sourceId": "paper-style",
+      "locator": "Actual full image or recorded source extraction",
+      "role": "style",
+      "delivery": "attach",
+      "inspected": true,
+      "inspectionNote": "Inspected warm paper, deep-green high-contrast headline, lighter supporting type and ample spacing; exact font not identified.",
+      "use": "Borrow color roles and measured whitespace rhythm; use a high-contrast Latin serif headline, not Chinese writing.",
+      "avoidCopy": "Do not import source wording, subjects, logos, results or distinctive scene elements; use only the stated visual aspects.",
+      "path": "images/002-original.png",
+      "sha256": "cdb6f839a06546478b299d9cbe717a775b5b578ed47acda0e65db6b82190f7f5"
+    }
+  ],
+  "observations": [
+    {
+      "id": "palette",
+      "referenceId": "paper-style",
+      "aspect": "palette",
+      "finding": "Warm pale ground and deep green carry the type, with quieter sage rules.",
+      "apply": "Keep warm paper and green text; do not tint the product materials."
+    },
+    {
+      "id": "type",
+      "referenceId": "paper-style",
+      "aspect": "typography",
+      "finding": "High stroke contrast and clear title/supporting hierarchy.",
+      "apply": "Use elegant English serif typography with compact but comfortable line breaks; small sans-serif details."
+    },
+    {
+      "id": "identity",
+      "referenceId": "target",
+      "aspect": "imagery",
+      "finding": "Woven face, metal side and orange loop jointly identify this object.",
+      "apply": "Retain those shapes and relative volumes while replacing typography."
+    }
+  ],
+  "palette": [
+    {
+      "id": "paper",
+      "method": "median",
+      "usage": "Background and footer paper.",
+      "referenceId": "paper-style",
+      "box": [
+        60,
+        60,
+        140,
+        100
+      ],
+      "hex": "#F4ECE1",
+      "rgb": [
+        244,
+        236,
+        225
+      ],
+      "provenance": {
+        "kind": "sampled",
+        "referenceId": "paper-style",
+        "box": [
+          60,
+          60,
+          140,
+          100
+        ],
+        "sourceSha256": "cdb6f839a06546478b299d9cbe717a775b5b578ed47acda0e65db6b82190f7f5",
+        "sampleCount": 14000,
+        "ignoredTransparentCount": 0,
+        "pixelPolicy": "Pillow decoded RGBA channel values; no ICC conversion, EXIF rotation, resampling, alpha compositing, or alpha weighting. Fully transparent pixels are ignored; partially transparent pixels retain their RGB values."
+      }
+    },
+    {
+      "id": "ink",
+      "method": "mode",
+      "usage": "English typography.",
+      "referenceId": "paper-style",
+      "box": [
+        414,
+        393,
+        10,
+        120
+      ],
+      "hex": "#273E31",
+      "rgb": [
+        39,
+        62,
+        49
+      ],
+      "provenance": {
+        "kind": "sampled",
+        "referenceId": "paper-style",
+        "box": [
+          414,
+          393,
+          10,
+          120
+        ],
+        "sourceSha256": "cdb6f839a06546478b299d9cbe717a775b5b578ed47acda0e65db6b82190f7f5",
+        "sampleCount": 1200,
+        "ignoredTransparentCount": 0,
+        "pixelPolicy": "Pillow decoded RGBA channel values; no ICC conversion, EXIF rotation, resampling, alpha compositing, or alpha weighting. Fully transparent pixels are ignored; partially transparent pixels retain their RGB values.",
+        "modeCount": 277,
+        "modeTied": false
+      }
+    },
+    {
+      "id": "sage",
+      "method": "median",
+      "usage": "Quiet rules and dividers.",
+      "referenceId": "paper-style",
+      "box": [
+        812,
+        886,
+        80,
+        70
+      ],
+      "hex": "#A3B1A0",
+      "rgb": [
+        163,
+        177,
+        160
+      ],
+      "provenance": {
+        "kind": "sampled",
+        "referenceId": "paper-style",
+        "box": [
+          812,
+          886,
+          80,
+          70
+        ],
+        "sourceSha256": "cdb6f839a06546478b299d9cbe717a775b5b578ed47acda0e65db6b82190f7f5",
+        "sampleCount": 5600,
+        "ignoredTransparentCount": 0,
+        "pixelPolicy": "Pillow decoded RGBA channel values; no ICC conversion, EXIF rotation, resampling, alpha compositing, or alpha weighting. Fully transparent pixels are ignored; partially transparent pixels retain their RGB values."
+      }
+    }
+  ],
+  "evidence": {
+    "cards": [
+      {
+        "referenceId": "target",
+        "title": "Existing speaker visual",
+        "original": {
+          "file": "images/001-original.png",
+          "sha256": "7d85abcd537e1f3294e243be10eb05f1912ad269209914cad8ce29b0be557338",
+          "width": 1122,
+          "height": 1402,
+          "format": "png",
+          "decodedMode": "RGB",
+          "exifOrientation": null,
+          "iccProfileSha256": null
+        },
+        "regions": []
+      },
+      {
+        "referenceId": "paper-style",
+        "title": "Palette and typographic spacing",
+        "original": {
+          "file": "images/002-original.png",
+          "sha256": "cdb6f839a06546478b299d9cbe717a775b5b578ed47acda0e65db6b82190f7f5",
+          "width": 1055,
+          "height": 1491,
+          "format": "png",
+          "decodedMode": "RGB",
+          "exifOrientation": null,
+          "iccProfileSha256": null
+        },
+        "regions": [
+          {
+            "id": "headline",
+            "label": "Headline hierarchy",
+            "bbox": [
+              90,
+              325,
+              690,
+              235
+            ]
+          },
+          {
+            "id": "footer",
+            "label": "Supporting information",
+            "bbox": [
+              95,
+              1080,
+              520,
+              295
+            ]
+          }
+        ]
+      }
+    ],
+    "htmlFile": "visual-spec.html",
+    "boardFile": "visual-spec-board.png"
+  },
+  "sourceStudy": {
+    "file": "visual-study.json",
+    "sha256": "90c594dd5bd8576214568e51b3f26821237a70437fcd1cc5f41f31bf50333e9f"
+  },
+  "limitations": [
+    "Visual observations, inspection declarations, and adaptation decisions are supplied by the author/model; this builder does not infer or independently verify them.",
+    "Regions and crops use integer pixels of the original decoded raster, before any EXIF display rotation; originals are copied byte-for-byte.",
+    "Sampled colors measure this raster's decoded RGB channels, not the source author's original vector fills, font identities, or layout certainty.",
+    "Pillow decoded RGBA channel values; no ICC conversion, EXIF rotation, resampling, alpha compositing, or alpha weighting. Fully transparent pixels are ignored; partially transparent pixels retain their RGB values.",
+    "Median is calculated per channel and rounded half-up to integer RGB. Exact RGB mode ties choose the lexicographically smallest RGB tuple.",
+    "The PNG board is a diagnostic evidence contact sheet. It is not a creative target and is not an automatic image attachment; HTML and JSON retain the full notes.",
+    "No scientific truth, exact-text correctness, visual quality, native editability, or target rendering is certified. Design-plan and the existing content packet retain content authority."
+  ]
+}

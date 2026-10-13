@@ -1,0 +1,14 @@
+Use case: precise-object-edit.
+Input image 1 is the exact edit target, a complete English CLIP scientific schematic. Make only a local scientific connection repair. Keep its canvas ratio, all wording, all examples, 3-by-3 core similarity matrix, colors, fonts, panels, photographs, encoders, footer and overall composition. Preserve the existing opaque white background.
+
+Repair A — training matrix input identity:
+In the left panel, the purple T1/T2/T3 normalized text embeddings currently connect incorrectly to the green I3 row-header on the matrix's left side. REMOVE this old arrowhead and its route into I3. Route the text-embedding output clearly to the TOP purple T1/T2/T3 column-header side of the matrix instead. Keep the green image embedding route going into the LEFT green I-row side. Use a continuous slim orthogonal path with an unmistakable arrowhead entering the purple column header. A short local detour and a small shift of the "Pairwise similarity" label are permitted to keep the text input path clear. If routes must cross, show a clear bridge with no junction; do not connect the image and text input paths. Keep all vector bars and all 3-by-3 matrix cells intact.
+
+Repair B — inference result must follow comparison:
+In the right panel, DELETE the current frozen-text-encoder output junction and both its upward connection into the bottom of "Cosine similarity" and its direct downward branch to "Illustrative label: dog". Replace with TWO SEPARATE directional edges:
+(1) Frozen text encoder -> Cosine similarity. Route from the upper part of the purple encoder through the white gap to the LEFT side of the cosine-similarity box, with the arrowhead entering that box. Its input must stay separate from the output route.
+(2) Cosine similarity -> Illustrative label: dog. Draw a single distinct vertical DOWNWARD output arrow from the BOTTOM of the cosine-similarity box to the TOP of the label box.
+Keep the existing frozen-image-encoder arrow entering the TOP of the cosine-similarity box.
+The label must have ONLY ONE incoming edge, from Cosine similarity. There must be no text-encoder-to-label shortcut and no shared input/output segment.
+
+Check every arrowhead and port. Do not add any modules, prose, decorative elements or values. Do not restyle the page. Return the repaired complete image.

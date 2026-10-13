@@ -1,0 +1,20 @@
+{
+  "case": "speaker",
+  "sourceVersion": "v4.2.1",
+  "date": "2026-10-13",
+  "selectedImage": "../../../assets/gallery/speaker.png",
+  "sha256": "bf516564e41abeb3198cf37e0fb7be51af313bb6bec5cf8a85ee254e07fd6ab2",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "stage": "raster visual target",
+  "status": "Accepted visual target on the first draft",
+  "reviewType": "author visual review",
+  "finding": "The English headline has a clear two-line rhythm. The warm-paper/deep-green family carries over, while the woven face, champagne side, orange loop, and three material details remain recognizable. All seven required copy items are visible.",
+  "limitations": [
+    "A fictional product concept. The image does not establish specifications, exact material properties, weight, or production geometry.",
+    "No native reconstruction or physical print proof in this batch."
+  ],
+  "source": null
+}

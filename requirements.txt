@@ -1,0 +1,2 @@
+# Optional Python helpers: reference preparation, comparison, visual-spec boards.
+Pillow>=10.0

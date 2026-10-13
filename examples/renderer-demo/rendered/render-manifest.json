@@ -1,0 +1,18 @@
+{
+  "schema": "paper-figure-render/v1",
+  "specSha256": "902ff6b8a47147f825212c5dedc6694be1356d9b3521b3ea0f92ccaad4ce97e6",
+  "format": "svg",
+  "files": {
+    "figure.svg": "e4ab0d8dbe36dba301e9eeb4f3f8d644fb67e9549d09916a874935648a3213d2",
+    "resolved-scene.json": "7095fdc6bbe6a65fb25145a1bb73002f00b7e13d647ca303d2f661d80cb6e69c"
+  },
+  "transparentSvg": false,
+  "nativeAppValidated": false,
+  "previewRenderer": null,
+  "limitations": [
+    "SVG and PowerPoint font metrics can differ; inspect target-app export.",
+    "Connections are grouped editable paths; endpoints update on spec re-render, not by live native routing.",
+    "Bezier curves remain exact in SVG and use bounded polygonal approximation in PPTX.",
+    "Generated files do not import native-editor changes back into spec."
+  ]
+}

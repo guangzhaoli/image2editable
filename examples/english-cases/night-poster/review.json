@@ -1,0 +1,20 @@
+{
+  "case": "night-poster",
+  "sourceVersion": "v4.2.1",
+  "date": "2026-10-13",
+  "selectedImage": "../../../assets/gallery/night-poster.png",
+  "sha256": "1a6d01b224fb8a9364fe61dc37ef16940407ff8c6c1619ac2c4505e95f8016f0",
+  "dimensions": [
+    1054,
+    1492
+  ],
+  "stage": "raster visual target",
+  "status": "Accepted visual target on the first draft",
+  "reviewType": "author visual review",
+  "finding": "The condensed headline and large moon create a clear visual hierarchy. Event details remain separate from the scene, and the observer visibly uses the telescope. The concept footer is readable at original pixels but is the quietest text on the page.",
+  "limitations": [
+    "Fictional event and expressive sky imagery. This is not a real schedule or an astronomical sky map; small footer contrast needs checking before print.",
+    "No native reconstruction or physical print proof in this batch."
+  ],
+  "source": "https://www.jpl.nasa.gov/images/the-grand-tour-jpl-travel-poster/"
+}

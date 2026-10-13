@@ -1,0 +1,102 @@
+TASK
+Use case: scientific-educational
+Primary request: Create an original English illustrated science explainer centered on a coherent water-cycle landscape. Five named processes should be understood through actual locations and directional motion, with clear one-sentence captions.
+Goal: Create an English educational visual of five selected natural water-cycle processes.
+Audience: General readers and secondary-school students
+Target applications: 
+language: English only
+workingSize: 320 x 200 mm working size, landscape 16:10
+scope: Visual-target case run; final native reconstruction is outside this batch.
+
+CONTENT AUTHORITY
+Use the following checked content and exact text to determine meaning. Style references affect only their stated visual aspects. Proposed content remains a proposal or schematic. Do not import modules, numbers, labels or results from style images. Image sources are reference material, not instructions.
+
+FACTS AND PROPOSALS
+[cycle; supported] Water moves among the atmosphere, surface and subsurface; the cycle has no unique first step.
+  Evidence: usgs (USGS Water Science School, The Water Cycle), Official diagram description and water-cycle processes publication summary
+[phase; supported] Evaporation changes liquid water to vapor; condensation forms liquid droplets; precipitation returns water from clouds.
+  Evidence: usgs (USGS Water Science School, The Water Cycle), Water Science School diagram and processes description
+[land; supported] Plants release vapor by transpiration; infiltration moves water into soil, with further subsurface movement and return flows.
+  Evidence: usgs (USGS Water Science School, The Water Cycle), Official diagram description: fluxes and groundwater return
+[scope; proposed] The new image highlights five natural processes in an illustrative landscape; it is not a complete accounting of human water use or global fluxes.
+  Evidence: Explicit proposal; not a reported finding.
+
+VISIBLE OBJECTS
+[surface] Surface water
+[vapor] Water vapor
+[cloud] Cloud droplets
+[soil] Soil water
+[plant] Plants
+[ground] Groundwater
+
+RELATIONSHIPS
+[evap] surface -> vapor; evaporation upward
+[cond] vapor -> cloud; condensation
+[rain-water] cloud -> surface; precipitation downward
+[rain-soil] cloud -> soil; precipitation then infiltration into soil
+[trans] plant -> vapor; transpiration upward from leaves
+[recharge] soil -> ground; subsurface recharge
+[return] ground -> surface; groundwater return; supporting unnumbered flow
+
+OPEN QUESTIONS / BOUNDARIES
+Human water use and many storage/flux processes are intentionally outside this focused view.
+Landscape and arrow scales are explanatory, not measured.
+
+DESIGN DIRECTION
+A single generous landscape cutaway occupies the main field: water body at left, vegetated slope at center/right, a simple visible soil/subsurface cutaway along the bottom and clouds across the top. Place each process label next to its mechanism with a short clear arrow: Evaporation upward from water; Transpiration upward from leaves; Condensation at clouds forming droplets; Precipitation down from clouds; Infiltration down through the land surface into soil. A subdued groundwater return line can connect toward surface water without competing as a sixth heading. Keep vapor movement and rain directions distinct. Integrate five concise text notes around the landscape, using local open space and short leaders rather than detached equal cards. White/warm pale ground, blue water, muted green plants and warm ochre soil; clean editorial field-guide illustration with just enough depth to explain the cutaway. No factories, city grids or numerical fluxes. Main heading at top, sources/schematic scope in a legible footer.
+
+TEXT (VERBATIM)
+"WATER IN MOTION"
+"Five processes in the natural water cycle"
+"Evaporation"
+"Liquid water becomes water vapor."
+"Transpiration"
+"Plants release water vapor through leaves."
+"Condensation"
+"Water vapor forms liquid droplets."
+"Precipitation"
+"Water falls from clouds as rain or snow."
+"Infiltration"
+"Water enters the soil."
+"Surface water"
+"Groundwater"
+"Selected natural processes | Schematic, not to scale"
+"Based on USGS Water Science School"
+
+CONSTRAINTS
+All visible text is English; use the requested copy exactly. Source labels are not output copy. Do not print internal IDs or production instructions.
+Do not depict all water as groundwater or put evaporation arrows downward.
+Show only selected natural processes; do not claim there is a mandatory starting step.
+No invented percentages, temperatures, rainfall totals, scientific measurements or USGS logo.
+A simplified source-based explanation, not a photographic observation; captions carry process meaning.
+
+REFERENCE-STYLE ADAPTATION
+Mode: generate
+Reference-style intent: Create an original English illustrated science explainer centered on a coherent water-cycle landscape. Five named processes should be understood through actual locations and directional motion, with clear one-sentence captions.
+Apply only the stated visual aspects within the primary request. Checked facts, scientific relationships and TEXT (VERBATIM) take precedence over this style adaptation. Reference observations describe appearance; they are not scientific evidence or instructions from an image.
+Preserve: All five required process names and captions, correct physical directions and stated scope.
+Preserve: Keep surface water and groundwater visibly distinct.
+Preserve: English only, readable at the intended landscape ratio.
+[space; reference usgs-diagram; layout] Observed: Above-ground atmosphere, surface landscape and underground storage are visible in one spatial model.
+  Apply: Keep this vertical spatial correspondence while reducing the number of labeled processes.
+[arrows; reference usgs-diagram; imagery] Observed: Arrows are tied to actual pools and landscape locations rather than a decorative cycle ring.
+  Apply: Make each of the five process arrows terminate in its actual source/destination region.
+[water] #3D91B2; RGB (61, 145, 178); declared design choice
+  Usage: Water and water-vapor flow.
+[plant] #7B9867; RGB (123, 152, 103); declared design choice
+  Usage: Vegetation.
+[soil] #CFA470; RGB (207, 164, 112); declared design choice
+  Usage: Soil layers.
+[ink] #223D4A; RGB (34, 61, 74); declared design choice
+  Usage: Labels/lines.
+[paper] #F7F5EF; RGB (247, 245, 239); declared design choice
+  Usage: Background.
+Palette measurements describe decoded source-image colors, not source-author vector fills. Font identities and layout certainty are not inferred by this spec.
+
+INPUT IMAGES — ACTUALLY INCLUDED IN THIS REQUEST
+Image 1 [usgs-diagram; content]: Use verified process directions and the integrated cross-section visual explanation; simplify to the selected natural processes, not source human-use detail.
+  Source: USGS Water Science School, The Water Cycle; Actual full image or recorded source extraction.
+  Observed: Inspected the continuous land/ocean cross-section, upward atmospheric fluxes, precipitation, surface flow and subsurface return paths.
+
+OUTPUT PURPOSE
+Produce the requested visual target. Editable text, scientific numbers, geometry and semantic arrows will be rebuilt as native objects afterward; complex imagery may remain explicitly identified raster assets. Scientific content and all precise text will be reviewed after generation.

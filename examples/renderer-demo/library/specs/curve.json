@@ -1,0 +1,73 @@
+{
+  "schema": "paper-figure-spec/v1",
+  "state": "ready",
+  "canvas": {
+    "width": 102,
+    "height": 47,
+    "unit": "px96",
+    "background": "cffffff"
+  },
+  "provenance": {
+    "kind": "synthetic",
+    "source": "Extracted component curve from: Synthetic renderer example; not a paper figure"
+  },
+  "palette": {
+    "c19283c": {
+      "hex": "#19283C",
+      "evidence": "ink: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "cffffff": {
+      "hex": "#FFFFFF",
+      "evidence": "white: Authored synthetic fixture color; not sampled from a paper"
+    }
+  },
+  "fonts": {},
+  "assets": [],
+  "objects": [
+    {
+      "id": "node0001",
+      "type": "path",
+      "bbox": [
+        1,
+        1,
+        100,
+        45
+      ],
+      "z": 0,
+      "evidence": "Bezier test: exact SVG, bounded polygonal native PPTX path",
+      "fill": "none",
+      "stroke": {
+        "color": "c19283c",
+        "width": 2,
+        "dash": "solid"
+      },
+      "commands": [
+        [
+          "M",
+          0,
+          25
+        ],
+        [
+          "C",
+          20,
+          0,
+          40,
+          45,
+          60,
+          20
+        ],
+        [
+          "Q",
+          80,
+          0,
+          100,
+          25
+        ]
+      ]
+    }
+  ],
+  "connections": [],
+  "groups": [],
+  "curveTolerance": 0.15,
+  "notes": "Extracted connections are fixed native path components, not live auto-routing connectors. No native application component library, symbol registry, or synchronization is registered. Native-editor changes are not synchronized back to source specs or extracted components. Extraction preserves supplied geometry and styles; it does not infer new design or scientific relationships. Duplicate fingerprints normalize geometry to 1e-6 px; emitted coordinates are not quantized. Native application editing and rendering require separate verification."
+}

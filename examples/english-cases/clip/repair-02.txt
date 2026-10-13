@@ -1,0 +1,17 @@
+Use case: precise-object-edit. Image 1 is the exact edit target.
+Make ONE local repair in the LEFT training panel. Preserve every word, image, matrix cell, panel, color, encoder, and the entire already-correct RIGHT zero-shot panel. Keep opaque white background.
+
+There is a wrong dark line above the matrix: it rises from near the I1 input, goes up, right, then points down into the words "Pairwise similarity". DELETE that entire upside-down U-shaped route. Keep the separate existing image-embedding arrow into the LEFT green I1 side of the matrix.
+
+The purple T1/T2/T3 vector bars currently have no output. Add a clean, thin PURPLE output collector on the RIGHT of those three purple bars and connect it to the TOP purple column-header of the matrix. The destination is the purple T2 HEADER CELL, not the title text and not a green I cell.
+
+Precise placement guide on this 1586x992 canvas (guides only, never print coordinates):
+- Purple bars end near x578, at y680, y739, y800. Add short horizontal purple strokes from each bar's right edge to a collector at x592.
+- Join these with a purple vertical collector x592, y680 to y800.
+- Continue the collector UP along x592 to y404, then turn RIGHT along y404 to x758, then turn DOWN into the TOP EDGE of the purple T2 column header at approximately (758,418), with a small clear downward arrowhead.
+- The new horizontal purple route crosses the separate dark image route near (606,404): show a small bridge/hop over that dark route, NO junction dot and NO connection.
+- Keep the label "Pairwise similarity" above y393 so the new purple horizontal route at y404 passes BELOW the lettering, not through it.
+- The purple route must visibly start at all three purple text-vector bars and end in the purple T-column header. Do not originate it from any image-vector bar or the I-row input route.
+- Keep the matrix core exactly 3 by 3, the three blue diagonal cells and both header axes exactly intact.
+
+Everything else remains visually unchanged. Return the complete repaired image.

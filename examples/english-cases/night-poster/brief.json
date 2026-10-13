@@ -1,0 +1,36 @@
+{
+  "case": "night-poster",
+  "goal": "Design an original English stargazing-event concept poster.",
+  "audience": "English-speaking community readers",
+  "language": "English only",
+  "targetApps": [],
+  "workingSize": "A3 portrait working size, 297 x 420 mm",
+  "scope": "Visual-target case run; final native reconstruction is outside this batch.",
+  "copy": [
+    "AFTER DARK",
+    "A NIGHT OF STARGAZING",
+    "Look up. Find a different scale.",
+    "SATURDAY | 7-9 PM",
+    "RIVERSIDE OBSERVATORY",
+    "Moonwatching / Star maps / Deep-sky stories",
+    "FICTIONAL EVENT | CONCEPT POSTER"
+  ],
+  "claims": [
+    {
+      "id": "concept",
+      "text": "This is an invented stargazing event with authored English logistics, not an actual scheduled event or astronomical observation.",
+      "status": "proposed",
+      "sourceRefs": [],
+      "required": true
+    }
+  ],
+  "constraints": [
+    "No NASA/JPL logo, source slogan, rockets, rings, planet collage or source travel text.",
+    "No real event organizer, registration address, date or ticket price.",
+    "English only; make the concept footer readable."
+  ],
+  "limits": [
+    "Conceptual scale and sky imagery are expressive, not a measured sky map.",
+    "Native text and print proof are not part of this visual-target run."
+  ]
+}

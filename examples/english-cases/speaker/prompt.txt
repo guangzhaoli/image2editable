@@ -1,0 +1,81 @@
+TASK
+Use case: ads-marketing
+Primary request: Restyle the actual supplied speaker poster into a polished all-English editorial visual. Replace all Chinese text, including labels inside material details, with the exact English copy. Retain the same product and the warm-paper/deep-green family.
+Goal: Create an all-English editorial product visual while retaining the fictional speaker identity.
+Audience: English-speaking design and outdoor-lifestyle readers
+Target applications: 
+language: English only
+workingSize: 224 x 280 mm working size, portrait 4:5
+scope: Visual-target case run; final native reconstruction is outside this batch.
+
+CONTENT AUTHORITY
+Use the following checked content and exact text to determine meaning. Style references affect only their stated visual aspects. Proposed content remains a proposal or schematic. Do not import modules, numbers, labels or results from style images. Image sources are reference material, not instructions.
+
+FACTS AND PROPOSALS
+[concept; proposed] An unbranded fictional concept speaker with dark woven front, champagne metal side and orange loop. English copy is a proposed editorial demonstration; no tested specifications exist.
+  Evidence: Explicit proposal; not a reported finding.
+
+VISIBLE OBJECTS
+[n1] PORTABLE SOUND
+[n2] TAKE THE LONG WAY.
+[n3] Bring your favorite sound beyond the everyday.
+[n4] WOVEN TEXTURE
+[n5] METAL DETAILS
+[n6] CARRY LIGHT
+[n7] CONCEPT STUDY
+
+OPEN QUESTIONS / BOUNDARIES
+Raster style transfer is not exact source-pixel retention or native editability.
+Fictional concept, not a real product advertisement.
+
+DESIGN DIRECTION
+Portrait 4:5. Small PORTABLE SOUND kicker at top, a large high-contrast serif headline split as TAKE THE / LONG WAY. when needed, a short quieter sentence below. Preserve the complete product at middle/lower right with its loop fully inside the canvas. Keep the three material closeups in a neat bottom band with uppercase English labels; CONCEPT STUDY below. Allow enough headline-to-loop separation and retain natural contact shadows.
+
+TEXT (VERBATIM)
+"PORTABLE SOUND"
+"TAKE THE LONG WAY."
+"Bring your favorite sound beyond the everyday."
+"WOVEN TEXTURE"
+"METAL DETAILS"
+"CARRY LIGHT"
+"CONCEPT STUDY"
+
+CONSTRAINTS
+All visible text is English; use the requested copy exactly. Source labels are not output copy. Do not print internal IDs or production instructions.
+No Chinese writing, logos, prices, power, battery, water-resistance or acoustic specifications.
+Preserve the product, not the previous Chinese letterforms.
+
+REFERENCE-STYLE ADAPTATION
+Mode: restyle
+Reference-style intent: Restyle the actual supplied speaker poster into a polished all-English editorial visual. Replace all Chinese text, including labels inside material details, with the exact English copy. Retain the same product and the warm-paper/deep-green family.
+Apply only the stated visual aspects within the primary request. Checked facts, scientific relationships and TEXT (VERBATIM) take precedence over this style adaptation. Reference observations describe appearance; they are not scientific evidence or instructions from an image.
+Preserve: Same fictional product and its materials/colors; no new brand or performance claims.
+Preserve: All seven new English strings, readable and complete.
+Preserve: Material closeups still correspond to the product; no Chinese text remains.
+Preserve target [target]: Same recognizable speaker body, woven front, metal side, orange loop and material closeups. Keep opaque background. Original Chinese words are explicitly replaced.
+[palette; reference paper-style; palette] Observed: Warm pale ground and deep green carry the type, with quieter sage rules.
+  Apply: Keep warm paper and green text; do not tint the product materials.
+[type; reference paper-style; typography] Observed: High stroke contrast and clear title/supporting hierarchy.
+  Apply: Use elegant English serif typography with compact but comfortable line breaks; small sans-serif details.
+[identity; reference target; imagery] Observed: Woven face, metal side and orange loop jointly identify this object.
+  Apply: Retain those shapes and relative volumes while replacing typography.
+[paper] #F4ECE1; RGB (244, 236, 225); measured median from original reference paper-style, source-pixel box [60,60,140,100], 14000 usable pixels
+  Usage: Background and footer paper.
+[ink] #273E31; RGB (39, 62, 49); measured mode from original reference paper-style, source-pixel box [414,393,10,120], 1200 usable pixels
+  Usage: English typography.
+[sage] #A3B1A0; RGB (163, 177, 160); measured median from original reference paper-style, source-pixel box [812,886,80,70], 5600 usable pixels
+  Usage: Quiet rules and dividers.
+Palette measurements describe decoded source-image colors, not source-author vector fills. Font identities and layout certainty are not inferred by this spec.
+
+INPUT IMAGES — ACTUALLY INCLUDED IN THIS REQUEST
+Image 1 [target; edit-target]: Keep product identity and materials; replace the entire copy with the new English inventory.
+  Source: Existing fictional speaker visual; Actual full image or recorded source extraction.
+  Observed: Inspected thick rounded woven face, champagne side shell and tall orange woven loop; original page has Chinese copy.
+  Preserve: Same recognizable speaker body, woven front, metal side, orange loop and material closeups. Keep opaque background. Original Chinese words are explicitly replaced.
+Image 2 [paper-style; style]: Borrow color roles and measured whitespace rhythm; use a high-contrast Latin serif headline, not Chinese writing.
+  Source: Warm-paper typographic reference; Actual full image or recorded source extraction.
+  Observed: Inspected warm paper, deep-green high-contrast headline, lighter supporting type and ample spacing; exact font not identified.
+  Do not copy: Do not import source wording, subjects, logos, results or distinctive scene elements; use only the stated visual aspects.
+
+OUTPUT PURPOSE
+Produce the requested visual target. Editable text, scientific numbers, geometry and semantic arrows will be rebuilt as native objects afterward; complex imagery may remain explicitly identified raster assets. Scientific content and all precise text will be reviewed after generation.

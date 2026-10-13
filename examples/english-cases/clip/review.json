@@ -1,0 +1,20 @@
+{
+  "case": "clip",
+  "sourceVersion": "v4.2.1",
+  "date": "2026-10-13",
+  "selectedImage": "../../../assets/gallery/clip.png",
+  "sha256": "34497e2e2d56cd333fc1272d51a7a00981533bc3aa284c103e661f95b922432e",
+  "dimensions": [
+    1586,
+    992
+  ],
+  "stage": "raster visual target",
+  "status": "Accepted conceptual visual target after 3 local edits",
+  "reviewType": "independent reader + author visual review",
+  "finding": "English labels and the exact 3×3 matched-pair matrix were clear in the first draft. Connection tracing exposed an inference shortcut and an incorrect text-matrix port. The final version separates the two modality routes and makes the inference result follow cosine similarity.",
+  "limitations": [
+    "The generated examples are illustrative. No measured scores, new CLIP results, executable model, or native editability are claimed.",
+    "No native reconstruction or physical print proof in this batch."
+  ],
+  "source": "https://proceedings.mlr.press/v139/radford21a.html"
+}

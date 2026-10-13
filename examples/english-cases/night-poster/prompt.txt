@@ -1,0 +1,78 @@
+TASK
+Use case: ads-marketing
+Primary request: Generate an original all-English stargazing poster with refined print-illustration character, highly legible Latin display type, one principal Moon and a small person actually looking through a telescope. Use the reference for visual grammar only.
+Goal: Design an original English stargazing-event concept poster.
+Audience: English-speaking community readers
+Target applications: 
+language: English only
+workingSize: A3 portrait working size, 297 x 420 mm
+scope: Visual-target case run; final native reconstruction is outside this batch.
+
+CONTENT AUTHORITY
+Use the following checked content and exact text to determine meaning. Style references affect only their stated visual aspects. Proposed content remains a proposal or schematic. Do not import modules, numbers, labels or results from style images. Image sources are reference material, not instructions.
+
+FACTS AND PROPOSALS
+[concept; proposed] This is an invented stargazing event with authored English logistics, not an actual scheduled event or astronomical observation.
+  Evidence: Explicit proposal; not a reported finding.
+
+VISIBLE OBJECTS
+[n1] AFTER DARK
+[n2] A NIGHT OF STARGAZING
+[n3] Look up. Find a different scale.
+[n4] SATURDAY | 7-9 PM
+[n5] RIVERSIDE OBSERVATORY
+[n6] Moonwatching / Star maps / Deep-sky stories
+[n7] FICTIONAL EVENT | CONCEPT POSTER
+
+OPEN QUESTIONS / BOUNDARIES
+Conceptual scale and sky imagery are expressive, not a measured sky map.
+Native text and print proof are not part of this visual-target run.
+
+DESIGN DIRECTION
+A3 portrait. A bold condensed AFTER DARK title dominates the upper-left, with the subtitle and one-line invitation below. A single complete warm moon sits in the upper-right against generous deep-navy sky. In the lower half, broad teal/copper hill silhouettes and one small observer whose eye meets the telescope eyepiece communicate scale and activity. Sparse deliberate stars, a few large color planes and subtle print grain; no photoreal lunar texture. At the bottom, two clean information rows show time/place and activity list, followed by a readable concept footer. Keep headline and moon distinct and uncropped.
+
+TEXT (VERBATIM)
+"AFTER DARK"
+"A NIGHT OF STARGAZING"
+"Look up. Find a different scale."
+"SATURDAY | 7-9 PM"
+"RIVERSIDE OBSERVATORY"
+"Moonwatching / Star maps / Deep-sky stories"
+"FICTIONAL EVENT | CONCEPT POSTER"
+
+CONSTRAINTS
+All visible text is English; use the requested copy exactly. Source labels are not output copy. Do not print internal IDs or production instructions.
+No NASA/JPL logo, source slogan, rockets, rings, planet collage or source travel text.
+No real event organizer, registration address, date or ticket price.
+English only; make the concept footer readable.
+
+REFERENCE-STYLE ADAPTATION
+Mode: generate
+Reference-style intent: Generate an original all-English stargazing poster with refined print-illustration character, highly legible Latin display type, one principal Moon and a small person actually looking through a telescope. Use the reference for visual grammar only.
+Apply only the stated visual aspects within the primary request. Checked facts, scientific relationships and TEXT (VERBATIM) take precedence over this style adaptation. Reference observations describe appearance; they are not scientific evidence or instructions from an image.
+Preserve: All seven English strings and fictional-event footer.
+Preserve: One main Moon, one observer and one telescope with understandable use.
+[scale; reference jpl-style; layout] Observed: Large celestial forms contrast with small travel subjects.
+  Apply: Use one Moon and a tiny Earth observer to evoke a different scale; invent a different composition.
+[type; reference jpl-style; typography] Observed: A heavy condensed English headline contrasts strongly with narrow secondary information.
+  Apply: Give AFTER DARK a bold Latin display voice and separate the logistics from the art.
+[medium; reference jpl-style; imagery] Observed: The poster uses large geometric color fields and restrained printing texture.
+  Apply: Use simplified hills and a flat moon, avoiding the source rockets, rings, speed lines and text.
+[navy] #122238; RGB (18, 34, 56); declared design choice
+  Usage: Night background.
+[warm-white] #F4E9D2; RGB (244, 233, 210); declared design choice
+  Usage: Moon and principal type.
+[teal] #385F73; RGB (56, 95, 115); declared design choice
+  Usage: Layered hills.
+[copper] #CD8059; RGB (205, 128, 89); declared design choice
+  Usage: Low horizon accent.
+Palette measurements describe decoded source-image colors, not source-author vector fills. Font identities and layout certainty are not inferred by this spec.
+
+INPUT IMAGES — ACTUALLY INCLUDED IN THIS REQUEST
+Image 1 [jpl-style; style]: Use the bold Latin type hierarchy, scale contrast and flat print-illustration vocabulary; make a different Earth-based stargazing scene.
+  Source: NASA/JPL The Grand Tour poster; Actual full image or recorded source extraction.
+  Observed: Inspected massive simplified celestial forms, small spacecraft and bold condensed English title, with a narrow information strip.
+  Do not copy: Do not import source wording, subjects, logos, results or distinctive scene elements; use only the stated visual aspects.
+
+OUTPUT PURPOSE
+Produce the requested visual target. Editable text, scientific numbers, geometry and semantic arrows will be rebuilt as native objects afterward; complex imagery may remain explicitly identified raster assets. Scientific content and all precise text will be reviewed after generation.

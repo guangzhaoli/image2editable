@@ -1,0 +1,91 @@
+{
+  "schema": "paper-figure-spec/v1",
+  "state": "ready",
+  "canvas": {
+    "width": 121.5,
+    "height": 57.5,
+    "unit": "px96",
+    "background": "cffffff"
+  },
+  "provenance": {
+    "kind": "synthetic",
+    "source": "Extracted component output-group from: Synthetic renderer example; not a paper figure"
+  },
+  "palette": {
+    "c19283c": {
+      "hex": "#19283C",
+      "evidence": "ink: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "cddedd4": {
+      "hex": "#DDEDD4",
+      "evidence": "green: Authored synthetic fixture color; not sampled from a paper"
+    },
+    "cffffff": {
+      "hex": "#FFFFFF",
+      "evidence": "white: Authored synthetic fixture color; not sampled from a paper"
+    }
+  },
+  "fonts": {
+    "font1": {
+      "family": "Arial",
+      "evidence": "label: Explicit font choice for synthetic fixture",
+      "native_verified": false
+    }
+  },
+  "assets": [],
+  "objects": [
+    {
+      "id": "node0002",
+      "type": "roundrect",
+      "bbox": [
+        0.75,
+        0.75,
+        120,
+        56
+      ],
+      "z": 0,
+      "evidence": "Authored synthetic geometry",
+      "fill": "cddedd4",
+      "stroke": {
+        "color": "c19283c",
+        "width": 1.5,
+        "dash": "solid"
+      },
+      "radius": 9
+    },
+    {
+      "id": "node0003",
+      "type": "text",
+      "bbox": [
+        8.75,
+        13.75,
+        104,
+        30
+      ],
+      "z": 1,
+      "evidence": "Label anchored to its module origin",
+      "text": "Output",
+      "size": 18,
+      "lineHeight": 22,
+      "align": "center",
+      "valign": "middle",
+      "bold": false,
+      "italic": false,
+      "font": "font1",
+      "color": "c19283c"
+    }
+  ],
+  "connections": [],
+  "groups": [
+    {
+      "id": "node0001",
+      "children": [
+        "node0002",
+        "node0003"
+      ],
+      "z": 0
+    }
+  ],
+  "curveTolerance": 0.15,
+  "notes": "Extracted connections are fixed native path components, not live auto-routing connectors. No native application component library, symbol registry, or synchronization is registered. Native-editor changes are not synchronized back to source specs or extracted components. Extraction preserves supplied geometry and styles; it does not infer new design or scientific relationships. Duplicate fingerprints normalize geometry to 1e-6 px; emitted coordinates are not quantized. Native application editing and rendering require separate verification."
+}

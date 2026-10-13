@@ -1,0 +1,20 @@
+{
+  "case": "water-cycle",
+  "sourceVersion": "v4.2.1",
+  "date": "2026-10-13",
+  "selectedImage": "../../../assets/gallery/water-cycle.png",
+  "sha256": "5bca6bfcd0ca2fb43d1de71655c4631f6d78e13daf12aa25523f1c4509cde59e",
+  "dimensions": [
+    1586,
+    992
+  ],
+  "stage": "raster visual target",
+  "status": "Accepted visual target on the first draft",
+  "reviewType": "author visual review",
+  "finding": "All five named processes and their captions are visible. Upward evaporation/transpiration, downward precipitation/infiltration, and subsurface return are tied to their landscape regions. The landscape is more painterly and detailed than a flat infographic.",
+  "limitations": [
+    "Selected natural processes only. The section is schematic and not to scale; it is not a complete accounting of the global water cycle.",
+    "No native reconstruction or physical print proof in this batch."
+  ],
+  "source": "https://www.usgs.gov/media/images/water-cycle-png"
+}

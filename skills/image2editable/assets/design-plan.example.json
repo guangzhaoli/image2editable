@@ -1,0 +1,19 @@
+{
+  "schema": "design-plan/v1",
+  "kind": "framework",
+  "brief": {"goal": "Synthetic example of a three-module pipeline, not a paper result", "audience": "Renderer users", "targetApps": ["Affinity", "Illustrator", "PowerPoint"]},
+  "sources": [],
+  "claims": [{"id": "flow", "text": "Proposed example: Input passes through Encoder to Output", "status": "proposed", "sourceRefs": [], "required": true}],
+  "structure": {
+    "nodes": [{"id": "input", "label": "Input", "claimRefs": ["flow"]}, {"id": "encoder", "label": "Encoder", "claimRefs": ["flow"]}, {"id": "output", "label": "Output", "claimRefs": ["flow"]}],
+    "relations": [{"id": "encode", "source": "input", "target": "encoder", "type": "data", "claimRefs": ["flow"]}, {"id": "emit", "source": "encoder", "target": "output", "type": "data", "claimRefs": ["flow"]}]
+  },
+  "references": [],
+  "design": {"alternatives": [{"id": "horizontal", "description": "One left-to-right reading path on a wide canvas"}], "chosen": "horizontal", "rationale": "The synthetic content has one ordered path and requires no branching layout"},
+  "bindings": {
+    "nodes": [{"nodeId": "input", "shapeId": "input", "objectIds": ["input", "input-label"]}, {"nodeId": "encoder", "shapeId": "encoder", "objectIds": ["encoder", "encoder-label"]}, {"nodeId": "output", "shapeId": "output", "objectIds": ["output", "output-label"]}],
+    "relations": [{"relationId": "encode", "connectionId": "input-to-encoder"}, {"relationId": "emit", "connectionId": "encoder-to-output"}],
+    "claims": [{"claimId": "flow", "objectIds": ["input-label", "encoder-label", "output-label"]}]
+  },
+  "unknowns": []
+}

@@ -1,0 +1,408 @@
+{
+  "schema": "paper-figure-spec/v1",
+  "state": "ready",
+  "canvas": {
+    "width": 1280,
+    "height": 900,
+    "unit": "px96",
+    "background": "catalog-paper"
+  },
+  "provenance": {
+    "kind": "synthetic",
+    "source": "Component catalog derived from Synthetic renderer example; not a paper figure",
+    "notes": "Catalog layout; original component geometry/style evidence retained"
+  },
+  "palette": {
+    "white": {
+      "hex": "#FFFFFF",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "ink": {
+      "hex": "#19283C",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "blue": {
+      "hex": "#D5E9F4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "yellow": {
+      "hex": "#FFF0BD",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "green": {
+      "hex": "#DDEDD4",
+      "evidence": "Authored synthetic fixture color; not sampled from a paper"
+    },
+    "catalog-paper": {
+      "hex": "#FFFFFF",
+      "evidence": "Catalog page background"
+    },
+    "catalog-ink": {
+      "hex": "#18283D",
+      "evidence": "Catalog labels"
+    },
+    "catalog-muted": {
+      "hex": "#5C6878",
+      "evidence": "Catalog secondary labels"
+    },
+    "catalog-rule": {
+      "hex": "#E3E8EE",
+      "evidence": "Catalog divider"
+    },
+    "sample-color-0": {
+      "hex": "#19283C",
+      "evidence": "Text color from source spec"
+    },
+    "sample-color-1": {
+      "hex": "#19283C",
+      "evidence": "Text color from source spec"
+    },
+    "sample-color-2": {
+      "hex": "#19283C",
+      "evidence": "Text color from source spec"
+    }
+  },
+  "fonts": {
+    "label": {
+      "family": "Arial",
+      "evidence": "Explicit font choice for synthetic fixture",
+      "native_verified": false
+    },
+    "catalog-font": {
+      "family": "Arial",
+      "evidence": "Catalog annotations",
+      "native_verified": false
+    },
+    "sample-font-0": {
+      "family": "Arial",
+      "evidence": "Font candidate retained from source spec",
+      "native_verified": false
+    },
+    "sample-font-1": {
+      "family": "Arial",
+      "evidence": "Font candidate retained from source spec",
+      "native_verified": false
+    },
+    "sample-font-2": {
+      "family": "Arial",
+      "evidence": "Font candidate retained from source spec",
+      "native_verified": false
+    }
+  },
+  "assets": [],
+  "objects": [
+    {
+      "id": "catalog-title",
+      "type": "text",
+      "text": "Text styles",
+      "bbox": [
+        48,
+        28,
+        1184,
+        50
+      ],
+      "font": "catalog-font",
+      "size": 32,
+      "lineHeight": 40,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "catalog-subtitle",
+      "type": "text",
+      "text": "3 distinct styles · live text samples",
+      "bbox": [
+        48,
+        86,
+        1184,
+        32
+      ],
+      "font": "catalog-font",
+      "size": 17,
+      "lineHeight": 21.25,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "catalog-page",
+      "type": "text",
+      "text": "04",
+      "bbox": [
+        1150,
+        854,
+        82,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 15,
+      "lineHeight": 18.75,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "align": "right"
+    },
+    {
+      "id": "typeface-0",
+      "type": "text",
+      "text": "Arial",
+      "bbox": [
+        48,
+        160,
+        520,
+        34
+      ],
+      "font": "catalog-font",
+      "size": 22,
+      "lineHeight": 27.5,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "style-0",
+      "type": "text",
+      "text": "18 px · 22 px line · regular · 3 uses",
+      "bbox": [
+        48,
+        204,
+        540,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 16,
+      "lineHeight": 20,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "align-0",
+      "type": "text",
+      "text": "center / middle · #19283C",
+      "bbox": [
+        48,
+        240,
+        540,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "sample-0",
+      "type": "text",
+      "text": "Aa Bb 0123",
+      "bbox": [
+        650,
+        188,
+        530,
+        82
+      ],
+      "font": "sample-font-0",
+      "size": 18,
+      "lineHeight": 22,
+      "color": "sample-color-0",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "valign": "middle"
+    },
+    {
+      "id": "rule-0",
+      "type": "rect",
+      "bbox": [
+        48,
+        274,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "typeface-1",
+      "type": "text",
+      "text": "Arial",
+      "bbox": [
+        48,
+        290,
+        520,
+        34
+      ],
+      "font": "catalog-font",
+      "size": 22,
+      "lineHeight": 27.5,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "style-1",
+      "type": "text",
+      "text": "22 px · 27 px line · bold · 1 uses",
+      "bbox": [
+        48,
+        334,
+        540,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 16,
+      "lineHeight": 20,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "align-1",
+      "type": "text",
+      "text": "center / top · #19283C",
+      "bbox": [
+        48,
+        370,
+        540,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "sample-1",
+      "type": "text",
+      "text": "Aa Bb 0123",
+      "bbox": [
+        650,
+        318,
+        530,
+        82
+      ],
+      "font": "sample-font-1",
+      "size": 22,
+      "lineHeight": 27,
+      "color": "sample-color-1",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "valign": "middle"
+    },
+    {
+      "id": "rule-1",
+      "type": "rect",
+      "bbox": [
+        48,
+        404,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    },
+    {
+      "id": "typeface-2",
+      "type": "text",
+      "text": "Arial",
+      "bbox": [
+        48,
+        420,
+        520,
+        34
+      ],
+      "font": "catalog-font",
+      "size": 22,
+      "lineHeight": 27.5,
+      "color": "catalog-ink",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": true
+    },
+    {
+      "id": "style-2",
+      "type": "text",
+      "text": "15 px · 23 px line · regular · 1 uses",
+      "bbox": [
+        48,
+        464,
+        540,
+        30
+      ],
+      "font": "catalog-font",
+      "size": 16,
+      "lineHeight": 20,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "align-2",
+      "type": "text",
+      "text": "left / top · #19283C",
+      "bbox": [
+        48,
+        500,
+        540,
+        28
+      ],
+      "font": "catalog-font",
+      "size": 14,
+      "lineHeight": 17.5,
+      "color": "catalog-muted",
+      "z": 100,
+      "evidence": "Catalog annotation"
+    },
+    {
+      "id": "sample-2",
+      "type": "text",
+      "text": "Aa Bb 0123",
+      "bbox": [
+        650,
+        448,
+        530,
+        82
+      ],
+      "font": "sample-font-2",
+      "size": 15,
+      "lineHeight": 23,
+      "color": "sample-color-2",
+      "z": 100,
+      "evidence": "Catalog annotation",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "valign": "middle"
+    },
+    {
+      "id": "rule-2",
+      "type": "rect",
+      "bbox": [
+        48,
+        534,
+        1184,
+        1
+      ],
+      "fill": "catalog-rule",
+      "evidence": "Catalog row separator",
+      "z": 90
+    }
+  ],
+  "connections": [],
+  "groups": []
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "imagegen-input/v1",
+  "designPlan": "design-plan.example.json",
+  "useCase": "scientific-educational",
+  "designBrief": {
+    "request": "Design a simple editable framework visual target for this explicitly synthetic three-module example.",
+    "composition": ["Use one clear left-to-right reading path; allow unequal widths appropriate to the content."],
+    "style": "Clear compact scientific diagram with readable typography and native-rebuildable geometry.",
+    "palette": "Dark text, neutral modules, one accent for the data flow.",
+    "exactText": ["Input", "Encoder", "Output"],
+    "constraints": ["This is a proposed synthetic test, not a real paper result. Do not add experimental metrics."]
+  },
+  "references": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "visual-study/v1",
+  "mode": "generate",
+  "intent": "Borrow the restrained palette and main/side-note organization of the explicitly synthetic diagnostic reference for a simple three-node framework example.",
+  "preserve": ["Keep the proposed Input → Encoder → Output relationship and exact labels; this is not a reported paper result."],
+  "references": [{
+    "id": "synthetic-style",
+    "sourceId": "synthetic-style",
+    "title": "Synthetic diagnostic reference",
+    "locator": "Whole test image; declared rectangular regions",
+    "role": "style",
+    "delivery": "attach",
+    "path": "visual-study-reference.png",
+    "inspected": true,
+    "inspectionNote": "A deliberately constructed diagnostic image with a title region, a larger left area, a quieter right area and three flat design colors; not a real poster or scientific result.",
+    "use": "Palette values and main/supporting-region hierarchy only.",
+    "avoidCopy": "Do not print source diagnostic words or copy source content as facts.",
+    "regions": [
+      {"id": "heading", "label": "Title zone", "bbox": [40, 30, 560, 60], "note": "Large title role."},
+      {"id": "main", "label": "Main region", "bbox": [40, 140, 350, 210], "note": "More space for the principal visual."},
+      {"id": "support", "label": "Supporting region", "bbox": [440, 140, 160, 210], "note": "Quiet auxiliary information."}
+    ]
+  }],
+  "observations": [
+    {"id": "palette-use", "referenceId": "synthetic-style", "aspect": "palette", "finding": "Warm pale ground, dark green main ink and one amber accent distinguish roles.", "apply": "Use pale ground for the canvas, green for type/structure and amber for a processing emphasis."},
+    {"id": "layout-use", "referenceId": "synthetic-style", "aspect": "layout", "finding": "The main region receives more area than the supporting region.", "apply": "Keep the pipeline primary and any explanation subordinate; adapt to the example's ordered path rather than copying source boxes."}
+  ],
+  "palette": [
+    {"id": "paper", "name": "Ground", "method": "median", "referenceId": "synthetic-style", "box": [10, 10, 20, 20], "usage": "Canvas/background."},
+    {"id": "ink", "name": "Main ink", "method": "mode", "referenceId": "synthetic-style", "box": [50, 150, 20, 20], "usage": "Text and structural lines."},
+    {"id": "accent", "name": "Process accent", "method": "median", "referenceId": "synthetic-style", "box": [450, 150, 20, 20], "usage": "Processing emphasis only."}
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema": "visual-study/v1",
+  "mode": "restyle",
+  "intent": "Restyle the actual supplied speaker poster into a polished all-English editorial visual. Replace all Chinese text, including labels inside material details, with the exact English copy. Retain the same product and the warm-paper/deep-green family.",
+  "preserve": [
+    "Same fictional product and its materials/colors; no new brand or performance claims.",
+    "All seven new English strings, readable and complete.",
+    "Material closeups still correspond to the product; no Chinese text remains."
+  ],
+  "references": [
+    {
+      "id": "target",
+      "sourceId": "target",
+      "title": "Existing speaker visual",
+      "locator": "Actual full image or recorded source extraction",
+      "role": "edit-target",
+      "delivery": "attach",
+      "path": "assets/target.png",
+      "sha256": "7d85abcd537e1f3294e243be10eb05f1912ad269209914cad8ce29b0be557338",
+      "inspected": true,
+      "inspectionNote": "Inspected thick rounded woven face, champagne side shell and tall orange woven loop; original page has Chinese copy.",
+      "use": "Keep product identity and materials; replace the entire copy with the new English inventory.",
+      "preserve": "Same recognizable speaker body, woven front, metal side, orange loop and material closeups. Keep opaque background. Original Chinese words are explicitly replaced."
+    },
+    {
+      "id": "paper-style",
+      "sourceId": "paper-style",
+      "title": "Palette and typographic spacing",
+      "locator": "Actual full image or recorded source extraction",
+      "role": "style",
+      "delivery": "attach",
+      "path": "assets/paper-style.png",
+      "sha256": "cdb6f839a06546478b299d9cbe717a775b5b578ed47acda0e65db6b82190f7f5",
+      "inspected": true,
+      "inspectionNote": "Inspected warm paper, deep-green high-contrast headline, lighter supporting type and ample spacing; exact font not identified.",
+      "use": "Borrow color roles and measured whitespace rhythm; use a high-contrast Latin serif headline, not Chinese writing.",
+      "regions": [
+        {
+          "id": "headline",
+          "label": "Headline hierarchy",
+          "bbox": [
+            90,
+            325,
+            690,
+            235
+          ]
+        },
+        {
+          "id": "footer",
+          "label": "Supporting information",
+          "bbox": [
+            95,
+            1080,
+            520,
+            295
+          ]
+        }
+      ],
+      "avoidCopy": "Do not import source wording, subjects, logos, results or distinctive scene elements; use only the stated visual aspects."
+    }
+  ],
+  "observations": [
+    {
+      "id": "palette",
+      "referenceId": "paper-style",
+      "aspect": "palette",
+      "finding": "Warm pale ground and deep green carry the type, with quieter sage rules.",
+      "apply": "Keep warm paper and green text; do not tint the product materials."
+    },
+    {
+      "id": "type",
+      "referenceId": "paper-style",
+      "aspect": "typography",
+      "finding": "High stroke contrast and clear title/supporting hierarchy.",
+      "apply": "Use elegant English serif typography with compact but comfortable line breaks; small sans-serif details."
+    },
+    {
+      "id": "identity",
+      "referenceId": "target",
+      "aspect": "imagery",
+      "finding": "Woven face, metal side and orange loop jointly identify this object.",
+      "apply": "Retain those shapes and relative volumes while replacing typography."
+    }
+  ],
+  "palette": [
+    {
+      "id": "paper",
+      "method": "median",
+      "referenceId": "paper-style",
+      "box": [
+        60,
+        60,
+        140,
+        100
+      ],
+      "usage": "Background and footer paper."
+    },
+    {
+      "id": "ink",
+      "method": "mode",
+      "referenceId": "paper-style",
+      "box": [
+        414,
+        393,
+        10,
+        120
+      ],
+      "usage": "English typography."
+    },
+    {
+      "id": "sage",
+      "method": "median",
+      "referenceId": "paper-style",
+      "box": [
+        812,
+        886,
+        80,
+        70
+      ],
+      "usage": "Quiet rules and dividers."
+    }
+  ]
+}

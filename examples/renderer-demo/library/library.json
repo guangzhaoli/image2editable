@@ -1,0 +1,736 @@
+{
+  "schema": "paper-figure-library/v1",
+  "source": {
+    "specSha256": "13191c3475dd017142382c3799652a0fe3e6fd4ef25798e7c214e2dc0970c7c6",
+    "hashBasis": "canonical JSON of supplied spec",
+    "provenance": {
+      "kind": "synthetic",
+      "source": "Synthetic renderer example; not a paper figure"
+    },
+    "canvas": {
+      "width": 640,
+      "height": 280,
+      "unit": "px96",
+      "background": "#FFFFFF"
+    }
+  },
+  "fingerprintGeometryPrecisionPx": 0.000001,
+  "selectionMode": "default-top-level",
+  "componentCount": 8,
+  "sourceInstanceCount": 8,
+  "duplicateInstanceCount": 0,
+  "components": [
+    {
+      "id": "encoder-to-output",
+      "name": "encoder-to-output",
+      "category": "connection",
+      "fingerprint": "0dc207b0bd9ddadb3c9ece67075f1efcdd00555a152182f41aa9552b8fab90d1",
+      "bbox": [
+        0,
+        0,
+        81.5,
+        6
+      ],
+      "width": 81.5,
+      "height": 6,
+      "sourceInstances": [
+        {
+          "id": "encoder-to-output",
+          "name": "encoder-to-output",
+          "category": "connection",
+          "roots": [
+            "encoder-to-output"
+          ],
+          "sourceBounds": [
+            390,
+            105,
+            80,
+            6
+          ],
+          "paintBounds": [
+            389.25,
+            105,
+            81.5,
+            6
+          ]
+        }
+      ],
+      "sourceInstanceIds": [
+        "encoder-to-output"
+      ],
+      "sourceRoots": [
+        [
+          "encoder-to-output"
+        ]
+      ],
+      "sourceInstanceCount": 1,
+      "objectCount": 2,
+      "groupCount": 1,
+      "containsText": false,
+      "containsImages": false,
+      "fixedConnectionPaths": true
+    },
+    {
+      "id": "input-to-encoder",
+      "name": "input-to-encoder",
+      "category": "connection",
+      "fingerprint": "c58509fdaa654dcfbf76407c6010619a0fb28c2997bbd4f2fa5a94d38de6683c",
+      "bbox": [
+        0,
+        0,
+        71.5,
+        6
+      ],
+      "width": 71.5,
+      "height": 6,
+      "sourceInstances": [
+        {
+          "id": "input-to-encoder",
+          "name": "input-to-encoder",
+          "category": "connection",
+          "roots": [
+            "input-to-encoder"
+          ],
+          "sourceBounds": [
+            160,
+            105,
+            70,
+            6
+          ],
+          "paintBounds": [
+            159.25,
+            105,
+            71.5,
+            6
+          ]
+        }
+      ],
+      "sourceInstanceIds": [
+        "input-to-encoder"
+      ],
+      "sourceRoots": [
+        [
+          "input-to-encoder"
+        ]
+      ],
+      "sourceInstanceCount": 1,
+      "objectCount": 2,
+      "groupCount": 1,
+      "containsText": false,
+      "containsImages": false,
+      "fixedConnectionPaths": true
+    },
+    {
+      "id": "curve",
+      "name": "curve",
+      "category": "path",
+      "fingerprint": "987127fb207d9c4f08d3a3720e571a8f20d4350d1245f17630ad768510e78320",
+      "bbox": [
+        0,
+        0,
+        102,
+        47
+      ],
+      "width": 102,
+      "height": 47,
+      "sourceInstances": [
+        {
+          "id": "curve",
+          "name": "curve",
+          "category": "path",
+          "roots": [
+            "curve"
+          ],
+          "sourceBounds": [
+            75,
+            190,
+            100,
+            45
+          ],
+          "paintBounds": [
+            74,
+            189,
+            102,
+            47
+          ]
+        }
+      ],
+      "sourceInstanceIds": [
+        "curve"
+      ],
+      "sourceRoots": [
+        [
+          "curve"
+        ]
+      ],
+      "sourceInstanceCount": 1,
+      "objectCount": 1,
+      "groupCount": 0,
+      "containsText": false,
+      "containsImages": false,
+      "fixedConnectionPaths": false
+    },
+    {
+      "id": "encoder-group",
+      "name": "encoder-group",
+      "category": "group",
+      "fingerprint": "23bda18389949400578669690547a3451e33f03c8fdab986c52f31194519e0f4",
+      "bbox": [
+        0,
+        0,
+        161.5,
+        57.5
+      ],
+      "width": 161.5,
+      "height": 57.5,
+      "sourceInstances": [
+        {
+          "id": "encoder-group",
+          "name": "encoder-group",
+          "category": "group",
+          "roots": [
+            "encoder-group"
+          ],
+          "sourceBounds": [
+            230,
+            80,
+            160,
+            56
+          ],
+          "paintBounds": [
+            229.25,
+            79.25,
+            161.5,
+            57.5
+          ]
+        }
+      ],
+      "sourceInstanceIds": [
+        "encoder-group"
+      ],
+      "sourceRoots": [
+        [
+          "encoder-group"
+        ]
+      ],
+      "sourceInstanceCount": 1,
+      "objectCount": 2,
+      "groupCount": 1,
+      "containsText": true,
+      "containsImages": false,
+      "fixedConnectionPaths": false
+    },
+    {
+      "id": "input-group",
+      "name": "input-group",
+      "category": "group",
+      "fingerprint": "d227d4316fa0a1a94b4fa6a04bde9ff12585b3c0678a85c088236c6fcab20c6c",
+      "bbox": [
+        0,
+        0,
+        121.5,
+        57.5
+      ],
+      "width": 121.5,
+      "height": 57.5,
+      "sourceInstances": [
+        {
+          "id": "input-group",
+          "name": "input-group",
+          "category": "group",
+          "roots": [
+            "input-group"
+          ],
+          "sourceBounds": [
+            40,
+            80,
+            120,
+            56
+          ],
+          "paintBounds": [
+            39.25,
+            79.25,
+            121.5,
+            57.5
+          ]
+        }
+      ],
+      "sourceInstanceIds": [
+        "input-group"
+      ],
+      "sourceRoots": [
+        [
+          "input-group"
+        ]
+      ],
+      "sourceInstanceCount": 1,
+      "objectCount": 2,
+      "groupCount": 1,
+      "containsText": true,
+      "containsImages": false,
+      "fixedConnectionPaths": false
+    },
+    {
+      "id": "output-group",
+      "name": "output-group",
+      "category": "group",
+      "fingerprint": "fb8d4209a7177c63269348faafb12bc33ac7f4cf1348f48cf04b0bcf5ec21a72",
+      "bbox": [
+        0,
+        0,
+        121.5,
+        57.5
+      ],
+      "width": 121.5,
+      "height": 57.5,
+      "sourceInstances": [
+        {
+          "id": "output-group",
+          "name": "output-group",
+          "category": "group",
+          "roots": [
+            "output-group"
+          ],
+          "sourceBounds": [
+            470,
+            80,
+            120,
+            56
+          ],
+          "paintBounds": [
+            469.25,
+            79.25,
+            121.5,
+            57.5
+          ]
+        }
+      ],
+      "sourceInstanceIds": [
+        "output-group"
+      ],
+      "sourceRoots": [
+        [
+          "output-group"
+        ]
+      ],
+      "sourceInstanceCount": 1,
+      "objectCount": 2,
+      "groupCount": 1,
+      "containsText": true,
+      "containsImages": false,
+      "fixedConnectionPaths": false
+    },
+    {
+      "id": "caption",
+      "name": "caption",
+      "category": "text",
+      "fingerprint": "b3fe9909e000a9b9ebf0b7992376ef57444388083b6998523dcf868c214990e3",
+      "bbox": [
+        0,
+        0,
+        580,
+        30
+      ],
+      "width": 580,
+      "height": 30,
+      "sourceInstances": [
+        {
+          "id": "caption",
+          "name": "caption",
+          "category": "text",
+          "roots": [
+            "caption"
+          ],
+          "sourceBounds": [
+            30,
+            20,
+            580,
+            30
+          ],
+          "paintBounds": [
+            30,
+            20,
+            580,
+            30
+          ]
+        }
+      ],
+      "sourceInstanceIds": [
+        "caption"
+      ],
+      "sourceRoots": [
+        [
+          "caption"
+        ]
+      ],
+      "sourceInstanceCount": 1,
+      "objectCount": 1,
+      "groupCount": 0,
+      "containsText": true,
+      "containsImages": false,
+      "fixedConnectionPaths": false
+    },
+    {
+      "id": "caption-bottom",
+      "name": "caption-bottom",
+      "category": "text",
+      "fingerprint": "51d9ce17dffaf772bd93aadf7c5f8ef63a5469f71abd2f3b86b5a3a3041d0205",
+      "bbox": [
+        0,
+        0,
+        370,
+        55
+      ],
+      "width": 370,
+      "height": 55,
+      "sourceInstances": [
+        {
+          "id": "caption-bottom",
+          "name": "caption-bottom",
+          "category": "text",
+          "roots": [
+            "caption-bottom"
+          ],
+          "sourceBounds": [
+            200,
+            185,
+            370,
+            55
+          ],
+          "paintBounds": [
+            200,
+            185,
+            370,
+            55
+          ]
+        }
+      ],
+      "sourceInstanceIds": [
+        "caption-bottom"
+      ],
+      "sourceRoots": [
+        [
+          "caption-bottom"
+        ]
+      ],
+      "sourceInstanceCount": 1,
+      "objectCount": 1,
+      "groupCount": 0,
+      "containsText": true,
+      "containsImages": false,
+      "fixedConnectionPaths": false
+    }
+  ],
+  "palette": [
+    {
+      "token": "white",
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "evidence": "Authored synthetic fixture color; not sampled from a paper",
+      "usage": [
+        {
+          "kind": "canvas",
+          "id": "canvas",
+          "property": "background"
+        }
+      ],
+      "usageCount": 1,
+      "duplicateHexTokens": []
+    },
+    {
+      "token": "ink",
+      "hex": "#19283C",
+      "rgb": [
+        25,
+        40,
+        60
+      ],
+      "evidence": "Authored synthetic fixture color; not sampled from a paper",
+      "usage": [
+        {
+          "kind": "object",
+          "id": "input",
+          "property": "stroke.color"
+        },
+        {
+          "kind": "object",
+          "id": "input-label",
+          "property": "color"
+        },
+        {
+          "kind": "object",
+          "id": "encoder",
+          "property": "stroke.color"
+        },
+        {
+          "kind": "object",
+          "id": "encoder-label",
+          "property": "color"
+        },
+        {
+          "kind": "object",
+          "id": "output",
+          "property": "stroke.color"
+        },
+        {
+          "kind": "object",
+          "id": "output-label",
+          "property": "color"
+        },
+        {
+          "kind": "object",
+          "id": "caption",
+          "property": "color"
+        },
+        {
+          "kind": "object",
+          "id": "curve",
+          "property": "stroke.color"
+        },
+        {
+          "kind": "object",
+          "id": "caption-bottom",
+          "property": "color"
+        },
+        {
+          "kind": "connection",
+          "id": "input-to-encoder",
+          "property": "stroke.color",
+          "derivedNodeIds": [
+            "input-to-encoder__line",
+            "input-to-encoder__end"
+          ]
+        },
+        {
+          "kind": "connection",
+          "id": "encoder-to-output",
+          "property": "stroke.color",
+          "derivedNodeIds": [
+            "encoder-to-output__line",
+            "encoder-to-output__end"
+          ]
+        }
+      ],
+      "usageCount": 11,
+      "duplicateHexTokens": []
+    },
+    {
+      "token": "blue",
+      "hex": "#D5E9F4",
+      "rgb": [
+        213,
+        233,
+        244
+      ],
+      "evidence": "Authored synthetic fixture color; not sampled from a paper",
+      "usage": [
+        {
+          "kind": "object",
+          "id": "encoder",
+          "property": "fill"
+        }
+      ],
+      "usageCount": 1,
+      "duplicateHexTokens": []
+    },
+    {
+      "token": "yellow",
+      "hex": "#FFF0BD",
+      "rgb": [
+        255,
+        240,
+        189
+      ],
+      "evidence": "Authored synthetic fixture color; not sampled from a paper",
+      "usage": [
+        {
+          "kind": "object",
+          "id": "input",
+          "property": "fill"
+        }
+      ],
+      "usageCount": 1,
+      "duplicateHexTokens": []
+    },
+    {
+      "token": "green",
+      "hex": "#DDEDD4",
+      "rgb": [
+        221,
+        237,
+        212
+      ],
+      "evidence": "Authored synthetic fixture color; not sampled from a paper",
+      "usage": [
+        {
+          "kind": "object",
+          "id": "output",
+          "property": "fill"
+        }
+      ],
+      "usageCount": 1,
+      "duplicateHexTokens": []
+    }
+  ],
+  "textStyles": [
+    {
+      "id": "text-style-6a370ff2c22d",
+      "fingerprint": "6a370ff2c22d44785ea6d462b88a432b6811fcfa146e8cd6be5f6e9a46a363d6",
+      "family": "Arial",
+      "size": 18,
+      "lineHeight": 22,
+      "align": "center",
+      "valign": "middle",
+      "bold": false,
+      "italic": false,
+      "color": "#19283C",
+      "fontTokens": [
+        "label"
+      ],
+      "colorTokens": [
+        "ink"
+      ],
+      "fontEvidence": [
+        {
+          "token": "label",
+          "family": "Arial",
+          "evidence": "Explicit font choice for synthetic fixture",
+          "native_verified": false
+        }
+      ],
+      "usage": [
+        {
+          "kind": "object",
+          "id": "input-label",
+          "property": "text"
+        },
+        {
+          "kind": "object",
+          "id": "encoder-label",
+          "property": "text"
+        },
+        {
+          "kind": "object",
+          "id": "output-label",
+          "property": "text"
+        }
+      ],
+      "usageCount": 3
+    },
+    {
+      "id": "text-style-a9318ca1916d",
+      "fingerprint": "a9318ca1916d30beeb58b0f482c4fd281dd987aa82126500214ef693068d537d",
+      "family": "Arial",
+      "size": 22,
+      "lineHeight": 27,
+      "align": "center",
+      "valign": "top",
+      "bold": true,
+      "italic": false,
+      "color": "#19283C",
+      "fontTokens": [
+        "label"
+      ],
+      "colorTokens": [
+        "ink"
+      ],
+      "fontEvidence": [
+        {
+          "token": "label",
+          "family": "Arial",
+          "evidence": "Explicit font choice for synthetic fixture",
+          "native_verified": false
+        }
+      ],
+      "usage": [
+        {
+          "kind": "object",
+          "id": "caption",
+          "property": "text"
+        }
+      ],
+      "usageCount": 1
+    },
+    {
+      "id": "text-style-f3194bdd81fb",
+      "fingerprint": "f3194bdd81fb705deb7165278d7ef68ac6fa74e81d401dcfb6441760d90a1e8a",
+      "family": "Arial",
+      "size": 15,
+      "lineHeight": 23,
+      "align": "left",
+      "valign": "top",
+      "bold": false,
+      "italic": false,
+      "color": "#19283C",
+      "fontTokens": [
+        "label"
+      ],
+      "colorTokens": [
+        "ink"
+      ],
+      "fontEvidence": [
+        {
+          "token": "label",
+          "family": "Arial",
+          "evidence": "Explicit font choice for synthetic fixture",
+          "native_verified": false
+        }
+      ],
+      "usage": [
+        {
+          "kind": "object",
+          "id": "caption-bottom",
+          "property": "text"
+        }
+      ],
+      "usageCount": 1
+    }
+  ],
+  "nativeLibraryRegistered": false,
+  "nativeSyncRegistered": false,
+  "limitations": [
+    "Extracted connections are fixed native path components, not live auto-routing connectors.",
+    "No native application component library, symbol registry, or synchronization is registered.",
+    "Native-editor changes are not synchronized back to source specs or extracted components.",
+    "Extraction preserves supplied geometry and styles; it does not infer new design or scientific relationships.",
+    "Duplicate fingerprints normalize geometry to 1e-6 px; emitted coordinates are not quantized.",
+    "Native application editing and rendering require separate verification.",
+    "SVG and PowerPoint font metrics can differ; inspect target-app export.",
+    "Connections are grouped editable paths; endpoints update on spec re-render, not by live native routing.",
+    "Bezier curves remain exact in SVG and use bounded polygonal approximation in PPTX.",
+    "Generated files do not import native-editor changes back into spec."
+  ],
+  "sourceSpecSha256": "902ff6b8a47147f825212c5dedc6694be1356d9b3521b3ea0f92ccaad4ce97e6",
+  "boards": [
+    {
+      "id": "01-components",
+      "kind": "components",
+      "svg": "boards/01-components.svg"
+    },
+    {
+      "id": "02-components",
+      "kind": "components",
+      "svg": "boards/02-components.svg"
+    },
+    {
+      "id": "03-palette",
+      "kind": "palette",
+      "svg": "boards/03-palette.svg"
+    },
+    {
+      "id": "04-typography",
+      "kind": "typography",
+      "svg": "boards/04-typography.svg"
+    }
+  ],
+  "delivery": {
+    "nativeAssetPanelRegistered": false,
+    "nativeSymbolsRegistered": false,
+    "nativeGlobalColorBindings": false,
+    "ase": "Normal RGB swatches; application import requires verification"
+  }
+}

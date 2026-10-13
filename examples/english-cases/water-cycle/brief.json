@@ -1,0 +1,82 @@
+{
+  "case": "water-cycle",
+  "goal": "Create an English educational visual of five selected natural water-cycle processes.",
+  "audience": "General readers and secondary-school students",
+  "language": "English only",
+  "targetApps": [],
+  "workingSize": "320 x 200 mm working size, landscape 16:10",
+  "scope": "Visual-target case run; final native reconstruction is outside this batch.",
+  "copy": [
+    "WATER IN MOTION",
+    "Five processes in the natural water cycle",
+    "Evaporation",
+    "Liquid water becomes water vapor.",
+    "Transpiration",
+    "Plants release water vapor through leaves.",
+    "Condensation",
+    "Water vapor forms liquid droplets.",
+    "Precipitation",
+    "Water falls from clouds as rain or snow.",
+    "Infiltration",
+    "Water enters the soil.",
+    "Surface water",
+    "Groundwater",
+    "Selected natural processes | Schematic, not to scale",
+    "Based on USGS Water Science School"
+  ],
+  "claims": [
+    {
+      "id": "cycle",
+      "text": "Water moves among the atmosphere, surface and subsurface; the cycle has no unique first step.",
+      "status": "supported",
+      "sourceRefs": [
+        {
+          "sourceId": "usgs",
+          "locator": "Official diagram description and water-cycle processes publication summary"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "phase",
+      "text": "Evaporation changes liquid water to vapor; condensation forms liquid droplets; precipitation returns water from clouds.",
+      "status": "supported",
+      "sourceRefs": [
+        {
+          "sourceId": "usgs",
+          "locator": "Water Science School diagram and processes description"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "land",
+      "text": "Plants release vapor by transpiration; infiltration moves water into soil, with further subsurface movement and return flows.",
+      "status": "supported",
+      "sourceRefs": [
+        {
+          "sourceId": "usgs",
+          "locator": "Official diagram description: fluxes and groundwater return"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "scope",
+      "text": "The new image highlights five natural processes in an illustrative landscape; it is not a complete accounting of human water use or global fluxes.",
+      "status": "proposed",
+      "sourceRefs": [],
+      "required": true
+    }
+  ],
+  "constraints": [
+    "Do not depict all water as groundwater or put evaporation arrows downward.",
+    "Show only selected natural processes; do not claim there is a mandatory starting step.",
+    "No invented percentages, temperatures, rainfall totals, scientific measurements or USGS logo.",
+    "A simplified source-based explanation, not a photographic observation; captions carry process meaning."
+  ],
+  "limits": [
+    "Human water use and many storage/flux processes are intentionally outside this focused view.",
+    "Landscape and arrow scales are explanatory, not measured."
+  ]
+}
